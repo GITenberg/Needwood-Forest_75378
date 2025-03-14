@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Needwood Forest | Project Gutenberg</title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+       body { margin-left: 8%; margin-right: 10%; }
+       h1 { text-align: center; font-weight: bold; font-size: xx-large; }
+       h2 { text-align: center; font-weight: bold; font-size: x-large; }
+       h3 { text-align: center; font-weight: bold; font-size: large; }
+       .pageno { right: 1%; font-size: x-small; background-color: inherit; color: silver; 
+               text-indent: 0em; text-align: right; position: absolute; 
+               border: thin solid silver; padding: .1em .2em; font-style: normal; 
+               font-variant: normal; font-weight: normal; text-decoration: none; }
+       p { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; text-align: justify; }
+       sup { vertical-align: top; font-size: 0.6em; }
+       .fss { font-size: 75%; }
+       .sc { font-variant: small-caps; }
+       .large { font-size: large; }
+       .small { font-size: small; }
+       .xsmall { font-size: x-small; }
+       .lg-container-b { text-align: center; }
+       .x-ebookmaker .lg-container-b { clear: both; }
+       .linegroup { display: inline-block; text-align: justify; }
+       .x-ebookmaker .linegroup { display: block; margin-left: 1.5em; }
+       .linegroup .group { margin: 1em auto; }
+       .linegroup .line { text-indent: -3em; padding-left: 3em; }
+       div.linegroup > :first-child { margin-top: 0; }
+       .linegroup .in2 { padding-left: 4.0em; }
+       .linegroup .in32 { padding-left: 19.0em; }
+       .linegroup .in40 { padding-left: 23.0em; }
+       .linegroup .in44 { padding-left: 25.0em; }
+       .linegroup .in48 { padding-left: 27.0em; }
+       .ul_1 li {padding-left: 1em; text-indent: -1em; }
+       ul.ul_1 {padding-left: 0; margin-left: 2.78%; margin-top: .5em;
+               margin-bottom: .5em; list-style-type: disc; }
+       em.gesperrt { font-style: normal; letter-spacing: 0.2em; margin-right: -0.2em; }
+       .x-ebookmaker em.gesperrt { font-style: italic; letter-spacing: 0; margin-right: 0;
+               }
+       div.footnote > :first-child { margin-top: 1em; }
+       div.footnote p { text-indent: 1em; margin-top: 0.25em; margin-bottom: 0.25em; }
+       div.pbb { page-break-before: always; }
+       hr.pb { border: none; border-bottom: thin solid; margin-bottom: 1em; }
+       .x-ebookmaker hr.pb { display: none; }
+       .chapter { clear: both; page-break-before: always; }
+       .figcenter { clear: both; max-width: 100%; margin: 2em auto; text-align: center; }
+       .figcenter img { max-width: 100%; height: auto; }
+       .id001 { width:10%; }
+       .x-ebookmaker  .id001 { margin-left:45%; width:10%; }
+       .ig001 { width:100%; } 
+       .nf-center { text-align: center; }
+       .nf-center-c0 { text-align: justify; margin: 0.5em 0; }
+       .c000 { margin-top: 0.5em; margin-bottom: 0.5em; }
+       .c001 { page-break-before: always; margin-top: 4em; }
+       .c002 { margin-top: 2em; }
+       .c003 { margin-top: 1em; }
+       .c004 { page-break-before:auto; margin-top: 4em; }
+       .c005 { page-break-before: auto; margin-top: 2em; }
+       .c006 { margin-top: 1em; font-size: .9em; }
+       .c007 { font-size: 200%; }
+       .c008 { text-decoration: none; }
+       .c009 { page-break-before: always; margin-top: 2em; }
+       .c010 { margin-top: 2em; font-size: .9em; }
+       .c011 { margin-top: 4em; }
+       .c012 { margin-top: 2em; text-align: right; }
+       .c013 { border: none; border-bottom: thin solid; width: 10%; margin-left: 0;
+               margin-top: 1em; text-align: justify; }
+       .c014 { text-indent: 1em; margin-top: 0.25em; margin-bottom: 0.25em; }
+       .c015 { text-align: right; }
+       div.tnotes { padding-left:1em;padding-right:1em;background-color:#E3E4FA;
+              border:thin solid silver; margin:2em 10% 0 10%; font-family: Georgia, serif;
+               clear: both; }
+       .covernote { visibility: hidden; display: none; }
+       div.tnotes p { text-align: justify; }
+       .x-ebookmaker .covernote { visibility: visible; display: block; }
+       .figcenter {font-size: .9em; page-break-inside: avoid; max-width: 100%;
+               max-height: 100%; }
+       h1 {line-height: 150%; }
+       .footnote {font-size: .9em; }
+       div.footnote p {text-indent: 2em; margin-bottom: .5em; }
+       .chapter  { clear: both; page-break-before: always; }
+       body {font-family: Georgia, serif; text-align: justify; }
+       table {font-size: .9em; padding: 1.5em .5em 1em; page-break-inside: avoid;
+               clear: both; }
+       div.titlepage {text-align: center; page-break-before: always;
+               page-break-after: always; }
+       div.titlepage p {text-align: center; text-indent: 0em; font-weight: bold;
+               line-height: 1.5; margin-top: 3em; }
+       .ph2 { text-indent: 0em; font-weight: bold; font-size: x-large; margin: .75em auto;
+               page-break-before: always; }
+       .blackletter {font-family: 'Old English Text MT', serif; font-weight:bold; }
+       .x-ebookmaker p.dropcap:first-letter { float: left; }
+       .lnum {float: right;  text-indent: 2em; }
+    </style>
+  </head>
+  <body>   
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 75378 ***</div>
+
+<div class='tnotes covernote'>
+
+<p class='c000'><strong>Transcriber’s Note:</strong></p>
+
+<p class='c000'>New original cover art included with this eBook is granted to the public domain.</p>
+
+</div>
+
+<div class='titlepage'>
+
+<div>
+  <h1 class='c001'>NEEDWOOD FOREST.</h1>
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c002'>
+    <div>LICHFIELD:</div>
+    <div class='c003'><span class='sc'>Printed by John Jackson</span>,  M.<span class='fss'>DCC.LXXVI.</span></div>
+  </div>
+</div>
+
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_3'>3</span>
+  <h2 class='c004'>NEEDWOOD FOREST.</h2>
+</div>
+
+<h3 class='c005'>PART, I.</h3>
+
+<div class='lg-container-b c006'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><em><span class='c007'>N</span>eedwood!</em> if e’er my early voice</div>
+      <div class='line'>Hath taught thy echoes to rejoice;</div>
+      <div class='line'>If e’er my hounds in opening cry</div>
+      <div class='line'>Have fill’d thy banks with ecstacy;</div>
+      <div class='line'>If e’er array’d in cheerful green</div>
+      <div class='line'>Our train hath deck’d thy wintry scene;</div>
+      <div class='line'>Ere yet thy wood-wild walks I leave,</div>
+      <div class='line'>My tributary verse receive:</div>
+      <div class='line'><span class='pageno' id='Page_4'>4</span>With thy own wreath my brows adorn,</div>
+      <div class='line'>And to thy praises tune my horn!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>What green-rob’d Nymph, all loose her hair,</div>
+      <div class='line'>With buskin’d leg, and bosom bare,</div>
+      <div class='line'>Steps lightly down the turfy glades,</div>
+      <div class='line'>And beckons tow’rd yon opening shades?—</div>
+      <div class='line'>No harlot-form, dissembling guile</div>
+      <div class='line'>With wanton air and painted smile,</div>
+      <div class='line'>Lures to enchanted halls or bowers,</div>
+      <div class='line'>Where festive Vice consumes his hours.</div>
+      <div class='line'>Her mild and modest looks dispense</div>
+      <div class='line'>The simple charm of innocence:</div>
+      <div class='line'>And a sweet wildness in her eye</div>
+      <div class='line'>Sparkles with young sincerity.—</div>
+      <div class='line'>Lead on, fair guide, ere wakes the dawn,</div>
+      <div class='line'>With thee I’ll climb the steepy lawn,</div>
+      <div class='line'>With thee the leafy labyrinths trace,</div>
+      <div class='line'>Where dwells the Genius of the place.—</div>
+      <div class='line'>His large limbs press a prim-rose bed,</div>
+      <div class='line'>A moss-grown root sustains his head,</div>
+      <div class='line'><span class='pageno' id='Page_5'>5</span>And, list’ning to a Druid’s rhimes,</div>
+      <div class='line'>He bends his eye on distant times:</div>
+      <div class='line'>While troops of sylvan Vassals meet</div>
+      <div class='line'>To cast their garlands at his feet,</div>
+      <div class='line'>And pipe and frisk in rings about,</div>
+      <div class='line'>Or parly with the Hunter’s shout.</div>
+      <div class='line'>And now a fragrant show’r he throws</div>
+      <div class='line'>Of blossoms from his curled brows,</div>
+      <div class='line'>And rising waves his oaken wand,</div>
+      <div class='line'>And bids yon magic scenes expand!—</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>First blush the hills with orient light,</div>
+      <div class='line'>And pierce the sable veil of night,</div>
+      <div class='line'>Green bends the waving shade above,</div>
+      <div class='line'>And glist’ring dew-drops gem the grove:</div>
+      <div class='line'>Next shine the shelving lawns around,</div>
+      <div class='line'>Bright threads of silver net the ground;</div>
+      <div class='line'>And down, the entangled brakes among,</div>
+      <div class='line'>The white rill sparkling winds along:</div>
+      <div class='line'>Then, as the pausing zephyrs breathe,</div>
+      <div class='line'>The billowy mist recedes beneath;</div>
+      <div class='line'><span class='pageno' id='Page_6'>6</span>Slow, as it rolls away, unfold</div>
+      <div class='line'>The vale’s fresh glories green and gold;</div>
+      <div class='line'><span class='sc'>Dove</span><a id='r1'></a><a href='#f1' class='c008'><sup>[1]</sup></a> laughs, and shakes his tresses bright,</div>
+      <div class='line'>And trails afar a line of light.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Now glows the illumin’d landscape round!</div>
+      <div class='line'>Ye Vulgar hence!—’tis sacred ground!</div>
+      <div class='line'>Hence to the flimsy walks of art,</div>
+      <div class='line'>That lull, but not transport the heart.</div>
+      <div class='line'>Nature, O Muse, here sits alone,</div>
+      <div class='line'>And marks these regions for thy own;</div>
+      <div class='line'>Here her variety of joys</div>
+      <div class='line'>Nor season bounds, nor change destroys:</div>
+      <div class='line'>Be mine the pride, tho’ weak my strains,</div>
+      <div class='line'>That first I woo’d thee to these plains;</div>
+      <div class='line'>Where Spring, in all her beauty drest,</div>
+      <div class='line'>But promises a brighter guest:</div>
+      <div class='line'>Where Summer yields her greens and flowers</div>
+      <div class='line'>To Autumn’s variegated bowers:</div>
+      <div class='line'>Smiles Winter, as their honours fall,</div>
+      <div class='line'>And bids his hollies shame them all.<a id='r2'></a><a href='#f2' class='c008'><sup>[2]</sup></a></div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_7'>7</span>Ye sage Professors of design,</div>
+      <div class='line'>Whom system’s stubborn rules confine,</div>
+      <div class='line'>Can science here one blemish show?</div>
+      <div class='line'>Or one deficient grace bestow?</div>
+      <div class='line'><span class='sc'>Emes</span>,<a id='r3'></a><a href='#f3' class='c008'><sup>[3]</sup></a> who yon desart wild explor’d,</div>
+      <div class='line'>And to it’s name the scene restor’d;</div>
+      <div class='line'>Whose art is nature’s law maintain’d,</div>
+      <div class='line'>Whose order negligence restrain’d,</div>
+      <div class='line'>Here, fir’d by native beauty, trac’d</div>
+      <div class='line'>The foot-steps of the Goddess, Taste:</div>
+      <div class='line'>Won from her coy retreats she came,</div>
+      <div class='line'>And led him up these paths to fame.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Here ev’ry flower improves the gale</div>
+      <div class='line'>From the meek violet of the vale</div>
+      <div class='line'>To her, who flaunts in air sublime,</div>
+      <div class='line'>The woodbine, queen of summer’s prime:</div>
+      <div class='line'>While each delicious shade may vie</div>
+      <div class='line'>With those of boasted Arcady.</div>
+      <div class='line'>There sweet varieties appear</div>
+      <div class='line'>Of thickets, shap’d by nibbling Deer,</div>
+      <div class='line'><span class='pageno' id='Page_8'>8</span>Of hills, that swell with gradual ease,</div>
+      <div class='line'>Wood-skirted lawns, and scatter’d trees;</div>
+      <div class='line'>Of vallies seen down distant glades,</div>
+      <div class='line'>That break the mass of mingling shades;</div>
+      <div class='line'>While nature’s attribute, extent,</div>
+      <div class='line'>Crowns each inferior ornament!—</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>On this green unambitious brow,</div>
+      <div class='line'>Fair Mistress of the vale below,</div>
+      <div class='line'>With sloping hills enclos’d around,</div>
+      <div class='line'>Their heads with oaks and hollies crown’d,</div>
+      <div class='line'>With lucky choice, by happy hands,</div>
+      <div class='line'>Plac’d in good hour, my dwelling stands;</div>
+      <div class='line'>And draws the distant trav’ler’s eye,</div>
+      <div class='line'>Enamour’d of it’s scenery;</div>
+      <div class='line'>Where all things give, what all express,</div>
+      <div class='line'>Content and rural happiness.</div>
+      <div class='line'>Where far retir’d from life’s dull form</div>
+      <div class='line'>Comes no intruder but the storm;</div>
+      <div class='line'>The storm, that with contrasted low’r</div>
+      <div class='line'>Endears the fair the silent hour.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_9'>9</span>Thus their wise days our fathers led,</div>
+      <div class='line'>Fleet ran their hounds, their arrows sped,</div>
+      <div class='line'>And jocund Health with rosy smile</div>
+      <div class='line'>Look’d on, companion of their toil:</div>
+      <div class='line'>Till tyrant Law usurp’d the land,</div>
+      <div class='line'>Stretch’d o’er the woods his iron hand,</div>
+      <div class='line'>Forbad the echoing horn to blow,</div>
+      <div class='line'>Maim’d the staunch hound, and snapp’d the bow.<a id='r4'></a><a href='#f4' class='c008'><sup>[4]</sup></a></div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Here with fair peace and modest fame<a id='r5'></a><a href='#f5' class='c008'><sup>[5]</sup></a></div>
+      <div class='line'>They dwelt, who boasted Bagot’s name,—</div>
+      <div class='line'>Go, <span class='sc'>Bagot</span>, plead your country’s cause,</div>
+      <div class='line'>While senates listen with applause,</div>
+      <div class='line'>With fearless truth and manly sense</div>
+      <div class='line'>Detecting specious eloquence:</div>
+      <div class='line'>Great talents to the world are due,</div>
+      <div class='line'>Retirement were a crime in you.</div>
+      <div class='line'>Go, and receive your oaken crown!</div>
+      <div class='line'>Here, with no title to renown,</div>
+      <div class='line'><span class='pageno' id='Page_10'>10</span>Leave me to loiter at my door</div>
+      <div class='line'>Beneath the spreading sycamore,</div>
+      <div class='line'>That canopies the sloping lawn;</div>
+      <div class='line'>And view the deer at early dawn</div>
+      <div class='line'>In troops come winding down the hill</div>
+      <div class='line'>To taste fresh herbage near the rill;</div>
+      <div class='line'>Or count at noon their slumb’ring heaps;</div>
+      <div class='line'>At evening watch their playful leaps;</div>
+      <div class='line'>Or hear the quiring of the grove</div>
+      <div class='line'>Give breath to harmony and love;</div>
+      <div class='line'>Or listen to the hum profound,</div>
+      <div class='line'>In the still air that floats around;</div>
+      <div class='line'>Or mark yon hills extended side,</div>
+      <div class='line'>Where turf and shade the space divide;—</div>
+      <div class='line'>Here the wood straggles tow’rd the plain,</div>
+      <div class='line'>The pasture there prevails again;</div>
+      <div class='line'>The heifer grazes on it’s brow,</div>
+      <div class='line'>Clamours the rook on trees below;</div>
+      <div class='line'>Gay golden furze and purple ling</div>
+      <div class='line'>Around their mixt embroidery fling,</div>
+      <div class='line'>O’er all, irregularly join’d,</div>
+      <div class='line'>Th’ according outline waves behind.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_11'>11</span>No dusky Cares o’er-hang the bower,</div>
+      <div class='line'>No Passions wreck the halcyon hour;</div>
+      <div class='line'>Nurs’d in the shade Reflection springs,</div>
+      <div class='line'>Smooths her white plumes, and tries her wings.</div>
+      <div class='line'>No leaf of autumn falls in vain;</div>
+      <div class='line'>No flower-bell droops beneath the rain,</div>
+      <div class='line'>No bubble down the current flows,</div>
+      <div class='line'>But life’s uncertain tenure shows.</div>
+      <div class='line'>Those thorns protect the forest’s hopes;</div>
+      <div class='line'>That tree the slender ivy props:</div>
+      <div class='line'>Thus rise the mighty on the mean!</div>
+      <div class='line'>Thus on the strong the feeble lean!</div>
+      <div class='line'>In yonder holly—blush mankind!—</div>
+      <div class='line'>A rare fidelity I find;</div>
+      <div class='line'>Like yours tho’ summer’s flatteries end,</div>
+      <div class='line'>My winter here hath found a friend.—</div>
+      <div class='line'>Hail faithful fav’rite tree! to you</div>
+      <div class='line'>The Muse shall pay observance due:</div>
+      <div class='line'>Whether in horrent files you stand</div>
+      <div class='line'>Round sapling oaks a guardian band;</div>
+      <div class='line'>Or form aloft a shelt’ring bower</div>
+      <div class='line'>Impervious to the sun or shower;</div>
+      <div class='line'>Whether to yon hill-side you throng</div>
+      <div class='line'>Ranging in various groups along;</div>
+      <div class='line'><span class='pageno' id='Page_12'>12</span>Or on the plain, maturely grown,</div>
+      <div class='line'>You boldly brave the storm alone,</div>
+      <div class='line'>Or tapering high, with woodbines hid,</div>
+      <div class='line'>Rise in a fragrant pyramid;</div>
+      <div class='line'>Your vigorous youth with upright shoots,</div>
+      <div class='line'>Your verdant age, your glowing fruits,</div>
+      <div class='line'>Your glossy leaves, and columns gray</div>
+      <div class='line'>Shall live the favorites of my lay!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Alas! in vain with warmth and food</div>
+      <div class='line'>You cheer the songsters of the wood,</div>
+      <div class='line'>The barbarous boy from you prepares</div>
+      <div class='line'>On treacherous twigs his viscous snares.</div>
+      <div class='line'>Yes, the poor bird, you nurs’d, shall find</div>
+      <div class='line'>Destruction in your rifled rind.</div>
+      <div class='line'>Thus good and ill too often meet,</div>
+      <div class='line'>And bitter mingles with the sweet!</div>
+      <div class='line'>—Ye pedagogues! let truant youth</div>
+      <div class='line'>Imbibe from you this gen’rous truth;</div>
+      <div class='line'>That one humane, one tender thought</div>
+      <div class='line'>Is worth the whole, that schools have taught.</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_13'>13</span>
+  <h3 class='c009'>PART, II.</h3>
+</div>
+
+<div class='lg-container-b c006'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>W</span>ith what fond gaze my eye pursues,</div>
+      <div class='line'><em>NEEDWOOD</em>, thy sweetly-varying views!</div>
+      <div class='line'>Satyr, or Nymph, or sylvan God</div>
+      <div class='line'>A fairer circuit never trod!</div>
+      <div class='line'>Charm’d, as I turn, thy pictures seem</div>
+      <div class='line'>The golden fabricks of a dream.</div>
+      <div class='line'>Where Fiction stands with prism bright,</div>
+      <div class='line'>Rays forth her many-colour’d light,</div>
+      <div class='line'>Dyes the green herb, and purple flower,</div>
+      <div class='line'>Gives glittering lustres to the shower;</div>
+      <div class='line'>Then gilds with livelier tints the sky,</div>
+      <div class='line'>Or bends her radiant bow on high.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>To scenes so elegantly wild</div>
+      <div class='line'>Fancy, of old, her darling child</div>
+      <div class='line'>From <span class='sc'>Avon’s</span> flowery margin brought,</div>
+      <div class='line'>And <span class='sc'>Arden</span> boasts what <span class='sc'>Needwood</span> taught.<a id='r6'></a><a href='#f6' class='c008'><sup>[6]</sup></a></div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_14'>14</span>Such shades by mazy paths perplex’d,</div>
+      <div class='line'>Where strays the traveller inly vex’d,</div>
+      <div class='line'>Inspir’d the Muse of <span class='sc'>Spencer’s</span> pen;</div>
+      <div class='line'>The <em>wandering wood</em>, and <em>Errors den</em>,<a id='r7'></a><a href='#f7' class='c008'><sup>[7]</sup></a></div>
+      <div class='line'>Dwarfs, Palfreys, Dames, and Giants rise</div>
+      <div class='line'>Full on Imaginations eyes!</div>
+      <div class='line'>See, See the Sarazin advance!</div>
+      <div class='line'>The red-cross Knight hath couch’d his lance!</div>
+      <div class='line'>They meet, the Christian wins the field,</div>
+      <div class='line'>And bears away the <em>faithless</em> shield!<a id='r8'></a><a href='#f8' class='c008'><sup>[8]</sup></a></div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>With such companions fond to rove,</div>
+      <div class='line'>I venerate each hill and grove,</div>
+      <div class='line'>To Phœbus as to Dian dear,</div>
+      <div class='line'>And find a new Parnassus here.</div>
+      <div class='line'>Here might the sacred sisters dwell</div>
+      <div class='line'>By pebbly brook, or gushing well:</div>
+      <div class='line'>O let me listen, as they sing,</div>
+      <div class='line'>In some close vale beside a spring,</div>
+      <div class='line'>Whose stream the intruding alder chides,</div>
+      <div class='line'>Where the wild-bee her treasure hides!—</div>
+      <div class='line'><span class='pageno' id='Page_15'>15</span>Or sit in high imbowering shade</div>
+      <div class='line'>With Contemplation, heav’n-ey’d maid,</div>
+      <div class='line'>Where the scant sun through branches thin</div>
+      <div class='line'>Chequers the dark green floor within;</div>
+      <div class='line'>Where ev’ry leaf is wisdom’s page,</div>
+      <div class='line'>And each gray trunk a hoary sage.</div>
+      <div class='line'>Nor motion, human form, or noise</div>
+      <div class='line'>This solemn pause of life destroys;</div>
+      <div class='line'>Save where the playful squirrel bounds,</div>
+      <div class='line'>Or ring-dove pours her plaintive sounds,</div>
+      <div class='line'>Or lurking peasant lops an oak</div>
+      <div class='line'>Restraining half his pilfering stroke,</div>
+      <div class='line'>Or with his faggot stoops to rest</div>
+      <div class='line'>Both by his years and burthen prest.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Here, seen of old, the elfin race</div>
+      <div class='line'>With sprightly vigils mark’d the place;</div>
+      <div class='line'>Their gay processions charm’d the sight,</div>
+      <div class='line'>Gilding the lucid noon of night;</div>
+      <div class='line'>Or, when obscure the midnight hour,</div>
+      <div class='line'>With glow-worm lantherns hung the bower.</div>
+      <div class='line'><span class='pageno' id='Page_16'>16</span>—Hark!—the soft lute! along the green</div>
+      <div class='line'>Moves with majestic step the queen!</div>
+      <div class='line'>Attendant Fays around her throng,</div>
+      <div class='line'>And trace the dance or raise the song;</div>
+      <div class='line'>Or touch the shrill reed, as they trip,</div>
+      <div class='line'>With finger light and ruby lip.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>High, on her brow sublime, is born</div>
+      <div class='line'>One scarlet wood-bine’s tremulous horn;</div>
+      <div class='line'>A gaudy bee-bird’s triple plume<a id='r9'></a><a href='#f9' class='c008'><sup>[9]</sup></a></div>
+      <div class='line'>Sheds on her neck its waving gloom;</div>
+      <div class='line'>With silvery gossamer entwin’d</div>
+      <div class='line'>Stream the luxuriant locks behind.</div>
+      <div class='line'>Thin folds of tangled network break</div>
+      <div class='line'>In airy waves adown her neck:</div>
+      <div class='line'>Warp’d in his loom, the spider spread</div>
+      <div class='line'>The far-diverging rays of thread,</div>
+      <div class='line'>Then round and round with shuttle fine</div>
+      <div class='line'>Inwrought the undulating line.</div>
+      <div class='line'>One rose-leaf forms her crimson vest,</div>
+      <div class='line'>The loose edge crosses o’er her breast.</div>
+      <div class='line'><span class='pageno' id='Page_17'>17</span>And one translucent fold, which fell</div>
+      <div class='line'>From the tall lily’s ample bell,</div>
+      <div class='line'>Forms with sweet grace her snowy train,</div>
+      <div class='line'>Flows, as she steps, and sweeps the plain.</div>
+      <div class='line'>Silence and Night inchanted gaze,</div>
+      <div class='line'>And Hesper hides his vanquish’d rays!—</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Now the wak’d reed-birds swell their throats,</div>
+      <div class='line'>And night-larks trill their mingled notes:</div>
+      <div class='line'>Yet hush’d in moss with writhed neck</div>
+      <div class='line'>The black-bird hides his golden beak;</div>
+      <div class='line'>Charm’d from his dream of love, he wakes,</div>
+      <div class='line'>Opes his gay eye, his plumage shakes,</div>
+      <div class='line'>And stretching wide each ebon wing,</div>
+      <div class='line'>First in low whispers tries to sing;</div>
+      <div class='line'>Then sounds his clarion loud, and thrills</div>
+      <div class='line'>The moon-bright lawns, and shadowy hills.</div>
+      <div class='line'>Silent the choral Fays attend,</div>
+      <div class='line'>And then their silver voices blend,</div>
+      <div class='line'>Each shining thread of sound prolong,</div>
+      <div class='line'>And weave the magic woof of song.</div>
+      <div class='line'><span class='pageno' id='Page_18'>18</span>Pleas’d Philomela takes her stand</div>
+      <div class='line'>On high, and leads the fairy band,</div>
+      <div class='line'>Pours sweet at intervals her strain,</div>
+      <div class='line'>And guides with beating wing the train.</div>
+      <div class='line'>Whilst interrupted zephyrs bear</div>
+      <div class='line'>Hoarse murmurs from the distant wear;</div>
+      <div class='line'>And at each pause is heard the swell</div>
+      <div class='line'>Of Echo’s soft symphonius shell.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Nor the dread night my mind alarms,—</div>
+      <div class='line'><span class='sc'>Night</span>, and her horrors have their charms.</div>
+      <div class='line'>O’er the wide forest oft I roam,</div>
+      <div class='line'>What time the trav’ler, far from home,</div>
+      <div class='line'>Bewilder’d in the pathless brakes,</div>
+      <div class='line'>There his cold bed despairing makes;</div>
+      <div class='line'>And hear the fox with savage bark</div>
+      <div class='line'>Pay distant courtship through the dark;</div>
+      <div class='line'>The owl with fault’ring voice unfold</div>
+      <div class='line'>Her tale, like one who shakes with cold:</div>
+      <div class='line'>And then the alarmed woods resound</div>
+      <div class='line'>Th’ upbraidings of the well-train’d hound,</div>
+      <div class='line'><span class='pageno' id='Page_19'>19</span>Who with tremendous tongue arraigns</div>
+      <div class='line'>And haunts the plunderer of his plains.</div>
+      <div class='line'>So cries from earth the life-blood spilt,</div>
+      <div class='line'>So waking furies harrass guilt!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Oft have I through this solemn glade</div>
+      <div class='line'>Of old dismember’d hollies stray’d,</div>
+      <div class='line'>Whose bold bare rugged brows are seen</div>
+      <div class='line'>Thrust through the mantling ever-green;</div>
+      <div class='line'>Tall clustring columns here ascend,</div>
+      <div class='line'>And there in gothic arches bend;<a id='r10'></a><a href='#f10' class='c008'><sup>[10]</sup></a></div>
+      <div class='line'>Whilst, as the silver moon-beams rise,</div>
+      <div class='line'>Imagin’d temples strike my eyes,</div>
+      <div class='line'>With tottering spire, and mouldering wall,</div>
+      <div class='line'>And high roof nodding to its fall.—</div>
+      <div class='line'>His lantern gleaming down the glade,</div>
+      <div class='line'>One, like a sexton with his spade,<a id='r11'></a><a href='#f11' class='c008'><sup>[11]</sup></a></div>
+      <div class='line'>Comes from their caverns to exclude</div>
+      <div class='line'>The mid-night prowlers of the wood.—</div>
+      <div class='line'>Through fields of air while pausing slow,</div>
+      <div class='line'>Yon death-bell tells the village woe!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_20'>20</span>Born on her clouds when Darkness flings</div>
+      <div class='line'>O’er the still air her raven wings,</div>
+      <div class='line'>Ere yet the watery freight descends,</div>
+      <div class='line'>While Heaven it’s purposes suspends,</div>
+      <div class='line'><span class='sc'>Night</span>, let me stand in silent trance,</div>
+      <div class='line'>And watch the lightning’s kindling glance:</div>
+      <div class='line'>While, stiff’ning at the imagin’d stroke,</div>
+      <div class='line'>Appears behind a brighten’d oak,</div>
+      <div class='line'>From justice fled to this wild place,</div>
+      <div class='line'>A conscious robber’s gastly face!—</div>
+      <div class='line'>Or fancy views with fear-fix’d eye</div>
+      <div class='line'>A mangled spectre gliding by,</div>
+      <div class='line'>Quick with the flash who seems to wave</div>
+      <div class='line'>His pale hand, beck’ning to a grave!—</div>
+      <div class='line'>And, as the fleeting vision dies,</div>
+      <div class='line'>Loud thunders shake the closing skies.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='sc'>Night</span>, when rude blasts thy scenes deform,</div>
+      <div class='line'>O place me in the perilous storm!</div>
+      <div class='line'>While the moon labouring thro’ the clouds</div>
+      <div class='line'>By turns her light reveals and shrouds;</div>
+      <div class='line'>Torn from it’s trunk, when whirlwinds bear</div>
+      <div class='line'>The twisted ash aloft in air:</div>
+      <div class='line'><span class='pageno' id='Page_21'>21</span>And some vast elm’s uprooted spoil</div>
+      <div class='line'>Ploughs in its headlong fall the soil.</div>
+      <div class='line'>While, as he stalks thro’ groaning oaks,</div>
+      <div class='line'>At intervals the old deer croaks:</div>
+      <div class='line'>And the lean sow with paps drawn dry</div>
+      <div class='line'>O’er rustling leaves trots whining by.—</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Then posts across the blasted plain,</div>
+      <div class='line'>Born on the wild storm, Witchcraft’s train,</div>
+      <div class='line'>Aghast with guilt, and shrunk with age,</div>
+      <div class='line'>And yelling with demoniack rage!—</div>
+      <div class='line'>With eyes turn’d back malign and wide</div>
+      <div class='line'>See blood-stain’d Murder silent stride,</div>
+      <div class='line'>A moon-beam’s sudden light expands,</div>
+      <div class='line'>He starts, and hides his crimson hands!—</div>
+      <div class='line'>And now the cauldron gleams afar,</div>
+      <div class='line'>Fir’d by a baneful meteor’s glare,</div>
+      <div class='line'>Around they dance, they pause, and pour</div>
+      <div class='line'>The mischiefs of the midnight hour;</div>
+      <div class='line'>While trembling fiends with wonder gaze,</div>
+      <div class='line'>Stretch their black wings, and fan the blaze!</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_22'>22</span>
+  <h3 class='c009'>PART, III.</h3>
+</div>
+
+<div class='lg-container-b c006'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>E</span>re Night withdraws her starry train,</div>
+      <div class='line'>I print long traces o’er the plain,</div>
+      <div class='line'>And bend my eyes to yon bright east</div>
+      <div class='line'>To meet the Morning’s radiant guest,</div>
+      <div class='line'>As o’er the hill his golden rays</div>
+      <div class='line'>Burst thro’ the thicket in a blaze.</div>
+      <div class='line'>Now from my foot the startled fawn</div>
+      <div class='line'>Bounds to its parent on the lawn;</div>
+      <div class='line'>And the wak’d lark exulting springs,</div>
+      <div class='line'>Hangs high in air on quivering wings,</div>
+      <div class='line'>Chaunts his loud transports o’er the heath,</div>
+      <div class='line'>And eyes his list’ning loves beneath.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Oft shall my <span class='sc'>Talbot</span> hither stray,</div>
+      <div class='line'>And friendship give new joys to day;</div>
+      <div class='line'>On him his blooming bride attend,</div>
+      <div class='line'>Hither her graceful footsteps bend,</div>
+      <div class='line'>Fresh life her brighter beauties fling</div>
+      <div class='line'>O’er the young dawn, and blossom’d spring.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_23'>23</span>They come! their eddying wheels resound,</div>
+      <div class='line'>The harness’d coursers proudly bound,</div>
+      <div class='line'>The light-hung chariot floats in air,</div>
+      <div class='line'>And laughing Hymen wreaths the pair!</div>
+      <div class='line'>As o’er the daisy’d lawns they move</div>
+      <div class='line'>By glittering rill or dusky grove,</div>
+      <div class='line'>Old <span class='sc'>Needwood</span> calls his softest gale,</div>
+      <div class='line'>Bids all his fragrant buds exhale:</div>
+      <div class='line'>His gazing herds around them throng,</div>
+      <div class='line'>His plighted birds suspend their song,</div>
+      <div class='line'>Each on her urn his Naiads lean,</div>
+      <div class='line'>And Wood-nymphs peep from allies green.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Where this gay mount o’er-looks the wood,<a id='r12'></a><a href='#f12' class='c008'><sup>[12]</sup></a></div>
+      <div class='line'>Charm’d with the scene a monarch stood,</div>
+      <div class='line'>Call’d these fair plains the richest gem,</div>
+      <div class='line'>That deck’d his triple diadem,</div>
+      <div class='line'>Awhile the cares of state forgot,</div>
+      <div class='line'>And with it’s name adorn’d the spot.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_24'>24</span>Down yon meridian fields afar</div>
+      <div class='line'>When Mercia led her chiefs to war,</div>
+      <div class='line'>Fell in one hour three monarchs brave,</div>
+      <div class='line'>And <span class='sc'>Lichfield’s</span> bower protects their grave.<a id='r13'></a><a href='#f13' class='c008'><sup>[13]</sup></a></div>
+      <div class='line'>Her stately spires amidst the skies</div>
+      <div class='line'>Ting’d by the orient sun arise,</div>
+      <div class='line'>With golden vanes invite the gale.—</div>
+      <div class='line'>Triumphant ladies of the vale!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Down yon mid-vale the british Nile,<a id='r14'></a><a href='#f14' class='c008'><sup>[14]</sup></a></div>
+      <div class='line'>Fair <span class='sc'>Dove</span>, comes winding many a mile;</div>
+      <div class='line'>And from his copious urn distils</div>
+      <div class='line'>The fatness of a thousand hills.</div>
+      <div class='line'>Swell, generous river, leave thy banks,</div>
+      <div class='line'>The thirsty soil shall give thee thanks!—</div>
+      <div class='line'>The generous river swells, and leads</div>
+      <div class='line'>His waters o’er impoverish’d meads,</div>
+      <div class='line'>And lays his ample treasure down,</div>
+      <div class='line'>Rich emblem of thy bounty, <span class='sc'>Brown</span>!<a id='r15'></a><a href='#f15' class='c008'><sup>[15]</sup></a></div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_25'>25</span>Pleas’d on yon high abode I gaze,</div>
+      <div class='line'>Whence <span class='sc'>C’andish</span> foaming Dove surveys:<a id='r16'></a><a href='#f16' class='c008'><sup>[16]</sup></a></div>
+      <div class='line'>And where those humbler vales extend</div>
+      <div class='line'>Of thine, <span class='sc'>Fitzherbert</span>, chearful friend.<a id='r17'></a><a href='#f17' class='c008'><sup>[17]</sup></a></div>
+      <div class='line'>Or mark upon yon round ascent</div>
+      <div class='line'>The social flag and open tent,<a id='r18'></a><a href='#f18' class='c008'><sup>[18]</sup></a></div>
+      <div class='line'>Where life’s smooth paths with sweets are strown,</div>
+      <div class='line'>And mirth makes every hour it’s own.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Where spreads this grove it’s umbrage wide</div>
+      <div class='line'>Late the bold Outlaw fought and died.<a id='r19'></a><a href='#f19' class='c008'><sup>[19]</sup></a></div>
+      <div class='line'>Oft in it’s dark recess the oak</div>
+      <div class='line'>Had fall’n beneath his secret stroke,</div>
+      <div class='line'>Full many a deer the night’s dim ray</div>
+      <div class='line'>Beheld his silent arrow slay,</div>
+      <div class='line'>Deep furze conceal’d the fawns in vain,</div>
+      <div class='line'>And lust of lucre thinn’d the plain.</div>
+      <div class='line'><span class='pageno' id='Page_26'>26</span>Here, by no power before controll’d,</div>
+      <div class='line'>He met a forester as bold;</div>
+      <div class='line'>O’er the fierce conflict frown’d the wood,</div>
+      <div class='line'>And drank with thirsty roots his blood.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yon bank demands a pitying look,</div>
+      <div class='line'>Where life a gentler breast forsook;<a id='r20'></a><a href='#f20' class='c008'><sup>[20]</sup></a></div>
+      <div class='line'>Sole comfort of an aged pair!</div>
+      <div class='line'>The true-love of a damsel fair!—</div>
+      <div class='line'>At prime of dawn he stepp’d away;</div>
+      <div class='line'>Long was the journey, short the day;</div>
+      <div class='line'>The wint’ry blast blew loud and chill;</div>
+      <div class='line'>Night caught him on the unshelter’d hill;</div>
+      <div class='line'>Fatigu’d he fell; no help came nigh;</div>
+      <div class='line'>His faithful dog alone was by;</div>
+      <div class='line'>Who, as he fondly lick’d his cheek,</div>
+      <div class='line'>Heard his expiring master speak.</div>
+      <div class='line'>“Heap not for me thy cottage-fire;</div>
+      <div class='line'>“Cold grows my heart, unhappy sire!</div>
+      <div class='line'><span class='pageno' id='Page_27'>27</span>“But turn to my unfinish’d loom,</div>
+      <div class='line'>“And weave the web, and bear it home!</div>
+      <div class='line'>“Prepare not, dame, my evening meal;</div>
+      <div class='line'>“But bid them ring my passing peal!</div>
+      <div class='line'>“Deck not thyself, dear maid, to meet</div>
+      <div class='line'>“Thy love; but bring his winding sheet!</div>
+      <div class='line'>“I come not to your festive cheer;</div>
+      <div class='line'>“Ye comrades, place me on my bier!—”</div>
+      <div class='line'>—The morrow found him stiff and pale:</div>
+      <div class='line'>Mournful the Muse recounts his tale.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Her stately tower there <span class='sc'>Hanbury</span> rears,</div>
+      <div class='line'>Which proudly looks o’er distant shires;</div>
+      <div class='line'>Down the chill slope and darken’d glade</div>
+      <div class='line'>Projects afar it’s length of shade;</div>
+      <div class='line'>Assails the skies with giant force,</div>
+      <div class='line'>And checks the whirlwind in it’s course;</div>
+      <div class='line'>Or, when black clouds involve the pole,</div>
+      <div class='line'>Disarms the thunders, as they roll!—</div>
+      <div class='line'>Beneath how Nature throws around</div>
+      <div class='line'>Grand inequalities of ground,</div>
+      <div class='line'>While down the dells and o’er the steeps</div>
+      <div class='line'>The wavy line of Paphos creeps!—</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_28'>28</span>With awful sorrow I behold</div>
+      <div class='line'>Yon cliff, that frowns with ruins old;<a id='r21'></a><a href='#f21' class='c008'><sup>[21]</sup></a></div>
+      <div class='line'>Stout <span class='sc'>Ferrers</span> there kept faithless ward,<a id='r22'></a><a href='#f22' class='c008'><sup>[22]</sup></a></div>
+      <div class='line'>And <span class='sc'>Gaunt</span> perform’d his Castle-guard.<a id='r23'></a><a href='#f23' class='c008'><sup>[23]</sup></a></div>
+      <div class='line'>There captive <span class='sc'>Mary</span> look’d in vain<a id='r24'></a><a href='#f24' class='c008'><sup>[24]</sup></a></div>
+      <div class='line'>For <span class='sc'>Norfolk</span>, and her nuptial train;</div>
+      <div class='line'>Enrich’d with royal tears the Dove,</div>
+      <div class='line'>But sigh’d for freedom, not from love.</div>
+      <div class='line'>’Twas once the seat of festive state,</div>
+      <div class='line'>Where high born dames and nobles sat;</div>
+      <div class='line'>While minstrels, each in order heard,<a id='r25'></a><a href='#f25' class='c008'><sup>[25]</sup></a></div>
+      <div class='line'>Their venerable songs preferr’d.</div>
+      <div class='line'>False memory of it’s state remains</div>
+      <div class='line'>In the rude sport of brutal swains.<a id='r26'></a><a href='#f26' class='c008'><sup>[26]</sup></a></div>
+      <div class='line'><span class='pageno' id='Page_29'>29</span>Now serpents hiss, and foxes dwell</div>
+      <div class='line'>Amidst the mould’ring citadel;</div>
+      <div class='line'>And time but spares those broken towers</div>
+      <div class='line'>In mockery of human powers.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yon hill, that glows with southern rays,<a id='r27'></a><a href='#f27' class='c008'><sup>[27]</sup></a></div>
+      <div class='line'>All-conscious of superior praise,</div>
+      <div class='line'>Swells her smooth top and pastures green,</div>
+      <div class='line'>And of her sisters seems the queen;</div>
+      <div class='line'>Proud from her ancient seats to trace</div>
+      <div class='line'>The lineage of a generous race.</div>
+      <div class='line'>“That generous race,” fair <span class='sc'>Sudbury</span> cries,</div>
+      <div class='line'>“Is mine,” and bids her turrets rise,</div>
+      <div class='line'>Lifts from the lap of peace her dome,</div>
+      <div class='line'>Where finds Munificence a home;</div>
+      <div class='line'>Then wide her shining lake she leads</div>
+      <div class='line'>Through blossom’d groves and emerald meads,</div>
+      <div class='line'>Cloaths with dark woods the distant scene,</div>
+      <div class='line'>And pours her dappled herds between.</div>
+      <div class='line'>—Ah me! what sudden sadness lowers</div>
+      <div class='line'>O’er her fair front and vernal bowers!</div>
+      <div class='line'><span class='pageno' id='Page_30'>30</span>There sinks to her untimely tomb</div>
+      <div class='line'>A virgin flower in beauty’s bloom!</div>
+      <div class='line'>O thou wast all that youth admires,</div>
+      <div class='line'>A parent loves, or friend desires!</div>
+      <div class='line'>I knew thee well! my sorrowing heart</div>
+      <div class='line'>Bears in thy loss a bitter part!—</div>
+      <div class='line'>Whilst the sad Muse in plaintive verse</div>
+      <div class='line'>Strews all her flowers around thy hearse,</div>
+      <div class='line'>Let Pity quit thy grave, and go</div>
+      <div class='line'>A mourner to yon house of woe.</div>
+      <div class='line'>There from thy father’s bosom break</div>
+      <div class='line'>Sighs, which too eloquently speak:</div>
+      <div class='line'>Thy mother weeps, but weeps resign’d,</div>
+      <div class='line'>In all things noble, most in mind:</div>
+      <div class='line'>Pale griefs thy sisters’ cheeks invade;</div>
+      <div class='line'>And one, alas, too tender maid!</div>
+      <div class='line'>Holds a long melancholy strife</div>
+      <div class='line'>Betwixt her sorrows and her life:</div>
+      <div class='line'>Thy manly brothers strive to cure</div>
+      <div class='line'>In vain, the pangs themselves endure.</div>
+      <div class='line'>Fair Saint! a happier lot is thine</div>
+      <div class='line'>Repos’d beneath the silent shrine!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_31'>31</span>Now let me seek in pensive mood</div>
+      <div class='line'>The rude recesses of the wood;</div>
+      <div class='line'>And, where congenial gloom extends,</div>
+      <div class='line'>Think of lost hopes and distant friends;</div>
+      <div class='line'>Of scenes, whose pleasures fled too fast,</div>
+      <div class='line'>And hours most valued now they’re past!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Beside me lies a dingle deep,<a id='r28'></a><a href='#f28' class='c008'><sup>[28]</sup></a></div>
+      <div class='line'>With shaggy banks abrupt and steep;</div>
+      <div class='line'>Through vistas wild my course I bend,</div>
+      <div class='line'>Till day-light opens at the end:</div>
+      <div class='line'>Where from intoxicating height</div>
+      <div class='line'>Bursts the wide prospect on my sight.</div>
+      <div class='line'>The terrace bold, on which I stand,</div>
+      <div class='line'>Steps broad and forward on the land;</div>
+      <div class='line'>Rude hills compose the side-long scene,</div>
+      <div class='line'>With crofts and cottages between:</div>
+      <div class='line'>The various landscape onward spreads</div>
+      <div class='line'>O’er cultur’d plains and verdant meads;</div>
+      <div class='line'>And seats, and towns, and hamlets rise,</div>
+      <div class='line'>Where yon smoke curls into the skies,</div>
+      <div class='line'><span class='pageno' id='Page_32'>32</span>And spires, that pierce thro’ tufted trees;</div>
+      <div class='line'>Till, faintly fading by degrees,</div>
+      <div class='line'>Beyond, in wild confusion tost,</div>
+      <div class='line'>The hills blue tops in clouds are lost.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yes, <span class='sc'>Eaton-Banks</span>, in vain I strive<a id='r29'></a><a href='#f29' class='c008'><sup>[29]</sup></a></div>
+      <div class='line'>To hide the grief your oaks revive.—</div>
+      <div class='line'>Bow thy tall branches, grateful wood!</div>
+      <div class='line'>Afford me blossom, leaf, and bud!</div>
+      <div class='line'>He, for whose memory these I blend,</div>
+      <div class='line'>Thy late-lost master, was my friend!—</div>
+      <div class='line'>Fall, gentle dews! fresh zephyrs, breathe!</div>
+      <div class='line'>Spread, cooling shades! preserve my wreath!—</div>
+      <div class='line'>Alas, it withers ere its time!—</div>
+      <div class='line'>So faded he in manly prime!—</div>
+      <div class='line'>But Virtue, scorning friendship’s aid,</div>
+      <div class='line'>Rears her own palms, which never fade!</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_33'>33</span>
+  <h3 class='c009'>PART, IV.</h3>
+</div>
+
+<div class='lg-container-b c006'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>H</span>enry, O leave, whilst youth is ours,<a id='r30'></a><a href='#f30' class='c008'><sup>[30]</sup></a></div>
+      <div class='line'>And health leads on the fleeting hours,</div>
+      <div class='line'>O leave awhile the court you grace,</div>
+      <div class='line'>And urge with me the sylvan chase!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Oft, as I bathe in morning’s breath,</div>
+      <div class='line'>Ere wakes the plover on the heath,</div>
+      <div class='line'>Ere the sun robs the woodbine’s smell,</div>
+      <div class='line'>Or dries the fox-glove’s purple bell,</div>
+      <div class='line'>I hear the deep-mouth’d thunder rise;</div>
+      <div class='line'>The monarch of the woodland flies,</div>
+      <div class='line'>Whilst the loud triumphs of the horn</div>
+      <div class='line'>On breezy wings are backward born.<a id='r31'></a><a href='#f31' class='c008'><sup>[31]</sup></a></div>
+      <div class='line'>His subject mates no succour lend;</div>
+      <div class='line'>What tyrant ever found a friend?</div>
+      <div class='line'>He dies!—the satiate echoes cease;</div>
+      <div class='line'>The forest reassumes its peace.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_34'>34</span>Now sun-burnt Autumn with his spoils</div>
+      <div class='line'>Diana’s bleeding altar piles:</div>
+      <div class='line'>Again the slaughtering gun is heard,</div>
+      <div class='line'>And wildly screams the parent bird;</div>
+      <div class='line'>All night she mourns her lessen’d brood,</div>
+      <div class='line'>Still views them fluttering in their blood,</div>
+      <div class='line'>With timorous call the rest collects,</div>
+      <div class='line'>And with quick wing their flight directs.</div>
+      <div class='line'>Now the strong buck his rival drives,</div>
+      <div class='line'>And awes with jealous threats his wives:</div>
+      <div class='line'>Slow move the kine to fresher fields;</div>
+      <div class='line'>The hawthorn to the holly yields:</div>
+      <div class='line'>No twittering swallow skims the plain,</div>
+      <div class='line'>No shrite-cock tunes his echoing strain:<a id='r32'></a><a href='#f32' class='c008'><sup>[32]</sup></a></div>
+      <div class='line'>Dumb are the full-plum’d songsters all,</div>
+      <div class='line'>Save the lone red-breast on my wall;</div>
+      <div class='line'>Thy tender lay, sweet bird, prolong,</div>
+      <div class='line'>And sooth old Winter with thy song!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>When wintry mists obscure the skies,</div>
+      <div class='line'>His busy nose the spaniel plies,</div>
+      <div class='line'><span class='pageno' id='Page_35'>35</span>Where mossy glades and thickets brown</div>
+      <div class='line'>Tempt the far-wandering wood-cock down:</div>
+      <div class='line'>Stretch thy strong wing, thy flight retake,</div>
+      <div class='line'>Nor trust the inhospitable brake!—</div>
+      <div class='line'>Ah, forc’d from the luxuriant ground,</div>
+      <div class='line'>He mounts, and feels the sudden wound.</div>
+      <div class='line'>So transmeridian Zealand views</div>
+      <div class='line'>Adventurous Europe’s wandering crews:</div>
+      <div class='line'>Fierce hunger eyes the stranger-guest,</div>
+      <div class='line'>And fraud secures the barbarous feast;</div>
+      <div class='line'>Stain’d are the rocks with human gore,</div>
+      <div class='line'>And white with scatter’d bones the shore.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>The leveret—but I spare the rest,</div>
+      <div class='line'>I see compassion touch thy breast—</div>
+      <div class='line'>Come then, and whilst the murderous crew</div>
+      <div class='line'>In harmless blood their hands imbrue,</div>
+      <div class='line'>Rous’d to revenge by ravag’d flocks,</div>
+      <div class='line'>Haste we to find the kennell’d fox.</div>
+      <div class='line'>Hark! those preluding cries he hears;</div>
+      <div class='line'>Thick beats his heart with conscious fears.</div>
+      <div class='line'><span class='pageno' id='Page_36'>36</span>Some tyrant thus, in luckless hour</div>
+      <div class='line'>Whom fraud or force has rais’d to pow’r,</div>
+      <div class='line'>With throbbing heart and pale eye stands,</div>
+      <div class='line'>And spreads to heaven his harpy hands,</div>
+      <div class='line'>When Freedom’s voice alarms the morn,</div>
+      <div class='line'>And Vengeance winds her echoing horn.</div>
+      <div class='line'>See, with the wind he scours away</div>
+      <div class='line'>Sleek, and in crimes grown old and gray!</div>
+      <div class='line'>Oft has he foil’d our angry pack,</div>
+      <div class='line'>I know his customary track.</div>
+      <div class='line'>Talk not of pity to such foes!</div>
+      <div class='line'>Stern justice claims the life he owes.</div>
+      <div class='line'>No storms arise to screen his flight;</div>
+      <div class='line'>’Tis long till interrupting night;</div>
+      <div class='line'>The breathing South his sentence gives,</div>
+      <div class='line'>And not an hour the caitiff lives!</div>
+      <div class='line'>Through woods, and hills, and vales, and brakes,</div>
+      <div class='line'><span class='sc'>Needwood</span> with general transport shakes.</div>
+      <div class='line'>Mark how the pack diffusely spread,</div>
+      <div class='line'>And shew me, if you can, their head!</div>
+      <div class='line'>’Tis here—’tis there—now onward far</div>
+      <div class='line'>Streams down the vales irregular.</div>
+      <div class='line'><span class='pageno' id='Page_37'>37</span>As through the furzy brakes they drive</div>
+      <div class='line'>The trembling coverts seem alive.</div>
+      <div class='line'>Thus by the winds o’er bending corn</div>
+      <div class='line'>Loose waves of light and shade are born.</div>
+      <div class='line'>Now winding up yon steep they strain;</div>
+      <div class='line'>Now wheel in silence on the plain:</div>
+      <div class='line'>Again they catch the tainted wind;</div>
+      <div class='line'>No hound disgraceful lurks behind:</div>
+      <div class='line'>All striving with confederate aim,</div>
+      <div class='line'>Their size, their power, their speed the same,</div>
+      <div class='line'>With eager eye and clamorous tongue</div>
+      <div class='line'>In broad career they press along,</div>
+      <div class='line'>Fierce on their victim gathering round—</div>
+      <div class='line'>—He suffers by no single wound!</div>
+      <div class='line'>Thus o’er the azure fields of night</div>
+      <div class='line'>Shoot the quick rays of northern light,</div>
+      <div class='line'>To one bright point converg’d they flow,</div>
+      <div class='line'>And round the silver zenith glow.</div>
+      <div class='line'>So, when a lake surcharg’d by rain</div>
+      <div class='line'>Bursts, and o’erwhelms the sloping plain,</div>
+      <div class='line'>The wond’ring rustic flies, nor knows</div>
+      <div class='line'>Which of its currents fastest flows;</div>
+      <div class='line'><span class='pageno' id='Page_38'>38</span>Now here the rattling eddies lead,</div>
+      <div class='line'>Now there they foam along the mead,</div>
+      <div class='line'>Till in a silent pool they stand,</div>
+      <div class='line'>Collected on the hollow land.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Go languid fops, go pedants, waste</div>
+      <div class='line'>Your sneers on joys you cannot taste;</div>
+      <div class='line'>And cloak with many a vain pretence</div>
+      <div class='line'>Cold-blooded fear and indolence!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Warm to each elegant delight,</div>
+      <div class='line'>Ingenious, sensible, polite,</div>
+      <div class='line'>Known to the world you know so well,</div>
+      <div class='line'>Lov’d e’en by those whom you excel,</div>
+      <div class='line'><span class='sc'>Meynell</span>, my leader and my friend,</div>
+      <div class='line'>Stand forth! the manly chase defend!</div>
+      <div class='line'>O raise your animating voice,</div>
+      <div class='line'>And cheer the Dian of your choice!</div>
+      <div class='line'>Not her, whose foul Circean draft</div>
+      <div class='line'>’Squires of preceding ages quaff’d,</div>
+      <div class='line'><span class='pageno' id='Page_39'>39</span>Unletter’d reveller, whose joys</div>
+      <div class='line'>Were rudeness, turbulence, and noise,</div>
+      <div class='line'>But her, no less of British kind,</div>
+      <div class='line'>Well-bred, intelligent, refin’d,</div>
+      <div class='line'>Of younger years and purer mold,</div>
+      <div class='line'>Chaste as the Huntress Queen of old.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yes, I am thine, enchanting maid!</div>
+      <div class='line'>Come, in thy decent robes array’d!</div>
+      <div class='line'>O bring thy blithe companion, Health,</div>
+      <div class='line'>Who smiles, and mocks the sluggard Wealth;</div>
+      <div class='line'>And Hope, who spleen and care destroys;</div>
+      <div class='line'>And Rapture scorning tamer joys;</div>
+      <div class='line'>Young Eagerness with kindling eyes;</div>
+      <div class='line'>And Triumph mingling jocund cries!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Come, as thy cheerful train is seen,</div>
+      <div class='line'>Where <span class='sc'>Foremarke</span> waves his woodlands green;</div>
+      <div class='line'>When hears his vale thy matin song,</div>
+      <div class='line'>And <span class='sc'>Trent</span> exulting shouts along:</div>
+      <div class='line'><span class='pageno' id='Page_40'>40</span>While wait, thy gay return to greet,</div>
+      <div class='line'>Convivial Mirth and Welcome sweet.—</div>
+      <div class='line'>On me, thy humbler votary, shower</div>
+      <div class='line'>The balmy dews of every flower,</div>
+      <div class='line'>Which oft thy curious hand has twin’d</div>
+      <div class='line'>Thy <span class='sc'>Burdett’s</span> favour’d brows to bind!</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_41'>41</span>
+  <h3 class='c009'>PART, V.</h3>
+</div>
+
+<div class='lg-container-b c006'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>W</span>hence, <span class='sc'>Needwood</span>, that tremendous sound!—</div>
+      <div class='line'>—Low dying murmurs run around,</div>
+      <div class='line'>A deeper gloom the wood receives,</div>
+      <div class='line'>And horror shivers on the leaves,</div>
+      <div class='line'>Loud shriekes the hern, the raven croaks—</div>
+      <div class='line'>Destruction’s arm arrests thy oaks!<a id='r33'></a><a href='#f33' class='c008'><sup>[33]</sup></a></div>
+      <div class='line'>Onward with giant strides he towers,</div>
+      <div class='line'>Dooms with dread voice thy withering bowers,</div>
+      <div class='line'>High o’er his head the broad axe wields,</div>
+      <div class='line'>Stamps with his iron foot, and shakes the fields!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>When from her lawless rocks and sands</div>
+      <div class='line'>Arabia pours her ruffian bands,</div>
+      <div class='line'>The village hinds in wild distress</div>
+      <div class='line'>Around some holy hermit press</div>
+      <div class='line'>Orb within orb, their wrongs declare,</div>
+      <div class='line'>And ask his counsel and his prayer;</div>
+      <div class='line'>All white with age, inspir’d he stands,</div>
+      <div class='line'>And lifts to heaven his wrinkled hands!</div>
+      <div class='line'><span class='pageno' id='Page_42'>42</span>So seems the affrighted forest, drawn</div>
+      <div class='line'>In crowds around this lonely lawn:</div>
+      <div class='line'>High in the midst with many a frown</div>
+      <div class='line'>Huge <span class='sc'>Swilcar</span> shakes his tresses brown,<a id='r34'></a><a href='#f34' class='c008'><sup>[34]</sup></a></div>
+      <div class='line'>Out-spreads his bare arms to the skies,</div>
+      <div class='line'>The ruins of six centuries,</div>
+      <div class='line'>Deep groans pervade his rifted rind—</div>
+      <div class='line'>—He speaks his bitterness of mind.</div>
+      <div class='line'>“Your impious hands, barbarians, hold!</div>
+      <div class='line'>“Ye pause! but fir’d with lust of gold,</div>
+      <div class='line'>“Your leader lifts his axe, and like</div>
+      <div class='line'>“Accursed <span class='sc'>Julius</span>, bids you strike.<a id='r35'></a><a href='#f35' class='c008'><sup>[35]</sup></a></div>
+      <div class='line'>“Deaf are the ruthless ears of gain,</div>
+      <div class='line'>“And youth and beauty plead in vain.</div>
+      <div class='line'>“—Loud groans the wood with thick’ning strokes!</div>
+      <div class='line'>“Yes, ye must perish, filial oaks!</div>
+      <div class='line'>“In heaps your wither’d trunks be laid,</div>
+      <div class='line'>“And wound the lawns, ye used to shade;</div>
+      <div class='line'>“Whilst Avarice on the naked pile</div>
+      <div class='line'>“Exulting casts a hideous smile.</div>
+      <div class='line'>“Strike here! on me exhaust your rage,</div>
+      <div class='line'>“Nor let false pity spare my age!</div>
+      <div class='line'><span class='pageno' id='Page_43'>43</span>“No pity dwells with sordid slaves;</div>
+      <div class='line'>“’Tis want of worth alone that saves.</div>
+      <div class='line'>“Yes, ye will leave me with disdain</div>
+      <div class='line'>“A mouldring land-mark on the plain,</div>
+      <div class='line'>“Where many a reign my trunk hath stood</div>
+      <div class='line'>“Proud father of the circling wood.</div>
+      <div class='line'>“In freedom’s dearest days I grew,<a id='r36'></a><a href='#f36' class='c008'><sup>[36]</sup></a></div>
+      <div class='line'>“And <span class='sc'>Henry’s</span> jealous nobles knew;</div>
+      <div class='line'>“I saw them pierce the bounding game,</div>
+      <div class='line'>“And heard their horn announce the claim.</div>
+      <div class='line'>“No more, beneath my favorite shade,</div>
+      <div class='line'>“The forest youth and village maid</div>
+      <div class='line'>“Shall meet to plight their troth, and mark</div>
+      <div class='line'>“Their loves memorial on my bark.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>“Yet, yet, fond Hope, thy distant light<a id='r37'></a><a href='#f37' class='c008'><sup>[37]</sup></a></div>
+      <div class='line'>“Beams unexpected on my sight;</div>
+      <div class='line'>“Lo <span class='sc'>Vernon</span> hastes, the common friend!</div>
+      <div class='line'>“The affrighted forest to defend;</div>
+      <div class='line'><span class='pageno' id='Page_44'>44</span>“Bids the keen axe the saplings spare,</div>
+      <div class='line'>“And makes posterity his care.</div>
+      <div class='line'>“Yes, Joy shall see these scenes renew’d,</div>
+      <div class='line'>“Shall wake his sister Gratitude,</div>
+      <div class='line'>“Shall call on lawns and hills and dells</div>
+      <div class='line'>“The silent echoes from their cells,</div>
+      <div class='line'>“Long trains of golden years proclaim,</div>
+      <div class='line'>“And <span class='sc'>Needwood</span> ring with <span class='sc'>Vernon’s</span> name.”</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>He ceas’d, and shook his hoary brow:</div>
+      <div class='line'>Glad murmurs fill the vale below,</div>
+      <div class='line'>The deer in gambols bound along,</div>
+      <div class='line'>The plighted birds resume their song.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Thrice-venerable Druid, hail!</div>
+      <div class='line'>O may thy sacred words prevail,</div>
+      <div class='line'>May <span class='sc'>Needwood’s</span> oaks successive stand</div>
+      <div class='line'>The lasting wonder of the land!—</div>
+      <div class='line'>And may some powerful bard arise,</div>
+      <div class='line'>Tho’ heaven to me that power denies,</div>
+      <div class='line'>The <span class='sc'>Pope</span> or <span class='sc'>Denham</span> of his days,</div>
+      <div class='line'>Whose lofty verse shall match their praise.</div>
+    </div>
+  </div>
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c002'>
+    <div><em>FINIS.</em></div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_45'>45</span>
+  <h2 class='c004'><span class='large'>ADDRESS</span><br> <span class='small'>TO</span><br> SWILCAR OAK,<br> <span class='small'>DESCRIBED</span><br> <span class='large'><span class='sc'>In Mr. MUNDY’s Poem</span></span><br> <span class='small'>ON</span><br> NEEDWOOD FOREST,</h2>
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>H</span>ail, stately oak, whose wrinkled trunk hath stood</div>
+      <div class='line'>Age after age, the sov’reign of this wood;</div>
+      <div class='line'>You, who have seen a thousand springs unfold</div>
+      <div class='line'>Their ravell’d buds, and dip their flowers in gold;</div>
+      <div class='line'>Ten thousand times yon moon relight her horn,</div>
+      <div class='line'>And that bright eye of evening gild the morn.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_46'>46</span>Say, when of old the snow-hair’d druids pray’d</div>
+      <div class='line'>With mad-ey’d rapture in your hallow’d shade,</div>
+      <div class='line'>While to their altars bards and heroes throng,</div>
+      <div class='line'>And crouding nations join the ecstatick song;</div>
+      <div class='line'>Did e’er such dulcet notes arrest your gales,</div>
+      <div class='line'>As <span class='sc'>Mundy</span> pours along the list’ning vales?</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yes, stately oak, thy leaf-wrapp’d head sublime</div>
+      <div class='line'>Erelong must perish in the wrecks of time;</div>
+      <div class='line'>Shou’d o’er thy brow the thunders harmless break,</div>
+      <div class='line'>And thy firm roots in vain the whirlwinds shake,</div>
+      <div class='line'>Yet must thou fall,—thy withering glories sunk,</div>
+      <div class='line'>Arm after arm shall leave the mould’ring trunk!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>But <span class='sc'>Mundy’s</span> verse shall consecrate thy name,</div>
+      <div class='line'>And rising forests envy <span class='sc'>Swilcar’s</span> fame:</div>
+      <div class='line'>Green shall thy gems expand, thy branches play,</div>
+      <div class='line'>And bloom for ever in the immortal lay.</div>
+    </div>
+    <div class='group'>
+      <div class='line in44'>E. D.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_47'>47</span>
+  <h2 class='c004'><span class='small'>A</span><br> RURAL CORONATION,<br> <span class='small'>Inscribed to Mr. <em class='gesperrt'>MUNDY</em>,<br> On reading his <span class='sc'>Poem</span><br> ON</span><br> <span class='large'>NEEDWOOD FOREST.</span></h2>
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>H</span>aste from your dells, your woods, and lawns,</div>
+      <div class='line'>Nymphs, Naiads, Satyrs, Fays, and Fauns,</div>
+      <div class='line'>Haste! hither bring your flowers and boughs,</div>
+      <div class='line'>And weave a wreath for <span class='sc'>Mundy’s</span> brows!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_48'>48</span>First twigs of oak from <span class='sc'>Swilcar</span> rend,</div>
+      <div class='line'>And round his auburn temples bend;</div>
+      <div class='line'>Then tye the ends, that twisting meet,</div>
+      <div class='line'>With tendrils from the wood-bine sweet:</div>
+      <div class='line'>With laurel-blossoms next be spread</div>
+      <div class='line'>Pale ivy crosswise o’er his head;</div>
+      <div class='line'>These holly sprigs insert between,</div>
+      <div class='line'>—The berries blush amid the green—</div>
+      <div class='line'>While hare-bells blue, and lilies fair,</div>
+      <div class='line'>Mix’d with the wild-rose, deck his hair.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Now with fantastick step advance,</div>
+      <div class='line'>And hand in hand around him dance;</div>
+      <div class='line'>To oaten pipe attune his lays,</div>
+      <div class='line'>And hail the bard, who sings your praise.</div>
+      <div class='line'>“While the gay choirings of the grove</div>
+      <div class='line'>“Give breath to harmony and love,</div>
+      <div class='line'>“And golden furze and purple ling</div>
+      <div class='line'>“Around their mix’d embroidery fling,</div>
+      <div class='line'>“And, all irregularly join’d,</div>
+      <div class='line'>“Th’ according outline waves behind.”</div>
+    </div>
+    <div class='group'>
+      <div class='line in40'>A. S.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_49'>49</span>
+  <h2 class='c004'>SONNET.</h2>
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>M</span>undy, whose song hath taught the forest swain</div>
+      <div class='line'>To view fair <span class='sc'>Needwood</span> thro’ the radiance clear</div>
+      <div class='line'>Of bright imagination, taught the tear</div>
+      <div class='line'>To glisten in his eye for other’s pain,</div>
+      <div class='line'>And own that taste and virtue are not vain,</div>
+      <div class='line'>How was thy pipe melodious wont to cheer</div>
+      <div class='line'>The wintry groves, when every leaf was sear,</div>
+      <div class='line'>And brighten summer with its artful strain!—</div>
+      <div class='line'>Say, by what meed shall <span class='sc'>Needwood</span> court thy stay?</div>
+      <div class='line'>She unsuspecting twines in amorous care</div>
+      <div class='line'>Her favorite holly and her flower-bells gay,</div>
+      <div class='line'>To deck with modest hand her lover’s hair,—</div>
+      <div class='line'>Ah, do not thou her gentle hope betray,</div>
+      <div class='line'>And doom her tender bosom to despair!</div>
+    </div>
+    <div class='group'>
+      <div class='line in48'>B. B.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_50'>50</span>
+  <h2 class='c004'><em>On</em> Mr. <em class='gesperrt'>MUNDY’s</em> <em>Needwood Forest</em>.</h2>
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>W</span>here <span class='sc'>Needwood’s</span> banks embroidered smile</div>
+      <div class='line'>On bright-hair’d Dove, the british Nile,</div>
+      <div class='line'>Pleas’d <span class='sc'>Mundy</span> fix’d his easel strong,</div>
+      <div class='line'>And stretch’d his canvass wide and long;</div>
+      <div class='line'>Broad o’er his hand the pallet lies</div>
+      <div class='line'>With pencils for a thousand dyes.</div>
+      <div class='line'>He look’d, and drew, and look’d again,—</div>
+      <div class='line'>—Enamour’d Fancy snatch’d the pen,</div>
+      <div class='line'>Nymphs, Graces, Loves around him throng,</div>
+      <div class='line'>With all the sisterhood of song:</div>
+      <div class='line'>Bright tints by fairy hands were mix’d.</div>
+      <div class='line'>And Witchcraft etch’d the shades betwixt.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Delighted Flora smil’d and drew</div>
+      <div class='line'>The primrose pale, and violet blue.</div>
+      <div class='line'>A Naiad spreads the flake of snow,—<a id='r38'></a><a href='#f38' class='c008'><sup>[38]</sup></a></div>
+      <div class='line'>White foams the glittering stream below.</div>
+      <div class='line'><span class='pageno' id='Page_51'>51</span>“Give me the pallet,” Love demands,</div>
+      <div class='line'>And stretching forth his baby hands</div>
+      <div class='line'>Dip’d with nice touch his keenest shaft</div>
+      <div class='line'>In all the blushing lakes, and laugh’d;<a id='r39'></a><a href='#f39' class='c008'><sup>[39]</sup></a></div>
+      <div class='line'>With sweetest grace the pencil flow’d,</div>
+      <div class='line'>With softest tints the canvass glow’d;</div>
+      <div class='line'>“I’ll draw Mamma,” the Wanton cries,</div>
+      <div class='line'>And <span class='sc'>Talbot’s</span> features charm our eyes!</div>
+      <div class='line'>With airy ease the white neck bends,</div>
+      <div class='line'>Lock after lock the hair descends:</div>
+      <div class='line'>O’er the fair form the Graces spread</div>
+      <div class='line'>Their vest, and Hymen wreaths the head.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>And then Thalia, muse of woe,</div>
+      <div class='line'>Moves o’er the woof her crayon slow.</div>
+      <div class='line'>Here, cold, bewilder’d, tir’d, forlorn,</div>
+      <div class='line'>The Traveller sighs in vain for morn;</div>
+      <div class='line'>Stretch’d on the imprinted snow he lies,</div>
+      <div class='line'>And bends on heaven his stiffening eyes.</div>
+      <div class='line'>There Friendship sits the shade beneath,</div>
+      <div class='line'>And twines for <span class='sc'>Clarke</span> a fadeless wreath;</div>
+      <div class='line'><span class='pageno' id='Page_52'>52</span>Fresh cypress with the flowers she weaves,</div>
+      <div class='line'>And many a tear-drop gems the leaves.</div>
+      <div class='line'>Next o’er the lawn a virgin throng</div>
+      <div class='line'>In sad procession moves along,</div>
+      <div class='line'>Lorn Loves inverted torches bear,</div>
+      <div class='line'>And Pity weeps o’er <span class='sc'>Vernon’s</span> bier.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>To shade the distant ground, and lay</div>
+      <div class='line'>The rising group in bolder day,</div>
+      <div class='line'>A Dryad chalks some dusky strokes,—</div>
+      <div class='line'>Behind umbrageous frown her oaks!</div>
+      <div class='line'>And <span class='sc'>Swilcar</span>, rent by many a storm,</div>
+      <div class='line'>Rears high in air his leafless form.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Pleas’d <span class='sc'>Mundy</span> stood with eager eyes,</div>
+      <div class='line'>And watch’d the living figures rise;</div>
+      <div class='line'>Smil’d as the varying colours flow’d,</div>
+      <div class='line'>And sigh’d by turns, and chill’d, and glow’d:</div>
+      <div class='line'>And to the admiring world has shewn</div>
+      <div class='line'>The immortal tablet for his own.</div>
+    </div>
+    <div class='group'>
+      <div class='line in40'>E. D. Jun.</div>
+    </div>
+  </div>
+</div>
+
+<div  class='figcenter id001'>
+<img src='images/i_052.jpg' alt='[Fleuron]' class='ig001'>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_53'>53</span>
+  <h2 class='c004'><span class='small'>THE</span><br> <span class='large'>FALL</span><br> <span class='small'>OF</span><br> NEEDWOOD.</h2>
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c002'>
+    <div><span class='blackletter'>Derby:</span></div>
+    <div class='c003'>PRINTED AT THE OFFICE OF J. DREWRY.</div>
+  </div>
+</div>
+
+<div  class='figcenter id001'>
+<img src='images/i_053.jpg' alt='' class='ig001'>
+</div>
+
+<div class='nf-center-c0'>
+  <div class='nf-center'>
+    <div><span class='xsmall'>1808.</span></div>
+  </div>
+</div>
+
+<div><span class='pageno' id='Page_55'>55</span></div>
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c011'>
+    <div>THE FALL OF NEEDWOOD.</div>
+  </div>
+</div>
+
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c007'>A</span>h, Needwood! I, whose early voice</div>
+      <div class='line'>Taught thy shrill echoes to rejoice;</div>
+      <div class='line'>I, who first pour’d the sylvan song</div>
+      <div class='line'>Thy glades, thy banks, thy lawns along;</div>
+      <div class='line'>I, who with artless pencil drew</div>
+      <div class='line'>Thy Forest charms of varied hue,</div>
+      <div class='line'>Approach thee now with different strain,</div>
+      <div class='line'>That mourns thy wrongs, yet mourns in vain:</div>
+      <div class='line'><span class='pageno' id='Page_56'>56</span>I come, but not with former haste,</div>
+      <div class='line'>To view the dim unshelter’d Waste,</div>
+      <div class='line'>That once was Needwood: on thy brow</div>
+      <div class='line'>No green-rob’d Wood-nymph beckons now:</div>
+      <div class='line'>Yet be thy Spirit sooth’d to bear</div>
+      <div class='line'>My Requiem through the void of air!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>O Draycot Cliff! again thy height,</div>
+      <div class='line'>Known beacon of my young delight,</div>
+      <div class='line'>With sad’ning thoughts, that much portend</div>
+      <div class='line'>Of change and tumult, I ascend;</div>
+      <div class='line'>Nor flatter’d by thy levell’d way,</div>
+      <div class='line'>That smiles, like worldlings, to betray.</div>
+      <div class='line'>How swells my aged heart, now near</div>
+      <div class='line'>Scenes to my happiest youth so dear!</div>
+      <div class='line'>How sinks that heart, as these arise</div>
+      <div class='line'>Distorted, to my anguish’d eyes!</div>
+      <div class='line'>Where are those ample plains, display’d</div>
+      <div class='line'>’Mong woods with many an opening glade?</div>
+      <div class='line'>Where is the wild doe bounding by,</div>
+      <div class='line'>Once emblem of their liberty?</div>
+      <div class='line'><span class='pageno' id='Page_57'>57</span>No stragglers from the warren fleet</div>
+      <div class='line'>Scud cross my path with flirting feet.</div>
+      <div class='line'>No jealous blood-hound, brave and proud,</div>
+      <div class='line'>Throws from the lodge his challenge loud.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>O hear me on thy summits tall,</div>
+      <div class='line'>Time-honour’d Needwood! hear my call!</div>
+      <div class='line'>For thou my filial voice hast known.—</div>
+      <div class='line'>No answer follows—hark! a groan!</div>
+      <div class='line'>His ancient seats I seek in vain;</div>
+      <div class='line'>He, nor his ancient seats remain;</div>
+      <div class='line'>But in strange horror staring round,</div>
+      <div class='line'>A Spectre, pointing to his wound,</div>
+      <div class='line'>Of hideous shape, with bald head, stalks</div>
+      <div class='line'>Before me o’er the ravag’d walks;</div>
+      <div class='line'>Where Desolation grim affrights<a id='r40'></a><a href='#f40' class='c008'><sup>[40]</sup></a></div>
+      <div class='line'>Sham’d Ceres in unhallow’d rites;</div>
+      <div class='line'>Where the check’d Plunderer shrinks aside,</div>
+      <div class='line'>As by his own deed terrified,</div>
+      <div class='line'><span class='pageno' id='Page_58'>58</span>Or fears, from many a faithful root,</div>
+      <div class='line'>Vengeance in ambush at his foot.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Wavering alike in mind and pace,</div>
+      <div class='line'>I roam, familiar haunts to trace;</div>
+      <div class='line'>The winds, that bow me as I go,</div>
+      <div class='line'>Rush unrestrain’d, as wild with woe,</div>
+      <div class='line'>Or querulously vex’d to miss</div>
+      <div class='line'>The blooming groves they lov’d to kiss.</div>
+      <div class='line'>Each spot discover’d has its tale;</div>
+      <div class='line'>Seems a friend’s voice in every gale;</div>
+      <div class='line'>Wak’d Recollection starts aghast,</div>
+      <div class='line'>And thoughtful sighs o’er pleasures past.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>When Nature, with exulting smile,</div>
+      <div class='line'>Form’d from her stores this happy Isle,</div>
+      <div class='line'>Curious, and bounteously intent</div>
+      <div class='line'>To raise a central ornament,</div>
+      <div class='line'>She cull’d the brightest and the best;</div>
+      <div class='line'>And heap’d them on her darling’s breast:</div>
+      <div class='line'>Sprung joyful to her warm embrace</div>
+      <div class='line'>Th’ appointed Genius of the Place;</div>
+      <div class='line'><span class='pageno' id='Page_59'>59</span>His features fair young Beauty drew;</div>
+      <div class='line'>On her soft lap the fondling grew.</div>
+      <div class='line'>The Seasons came his birth to greet,</div>
+      <div class='line'>And pour’d their choicest at his feet;</div>
+      <div class='line'>The Dryads quaintly curl’d his locks;</div>
+      <div class='line'>Nymphs, Fauns, and Satyrs rush’d in flocks,</div>
+      <div class='line'>Pleas’d in such Fairy-land to dwell,</div>
+      <div class='line'>And peopled every bower and dell.</div>
+      <div class='line'>Kings mark’d the consecrated ground;</div>
+      <div class='line'>And Power protective watch’d around.</div>
+      <div class='line'>Long Mercia sat beside enthron’d;<a id='r41'></a><a href='#f41' class='c008'><sup>[41]</sup></a></div>
+      <div class='line'>And prouder crowns its honours own’d.<a id='r42'></a><a href='#f42' class='c008'><sup>[42]</sup></a></div>
+      <div class='line'>Delighted Ages list’ning heard</div>
+      <div class='line'>The wild hoof beat the tainted swerd,</div>
+      <div class='line'>The glad’ning hound and echoing horn,</div>
+      <div class='line'>And hunters’ shouts far onward born.</div>
+      <div class='line'><span class='pageno' id='Page_60'>60</span>How did his dignity excel!</div>
+      <div class='line'>Blush, blush ye Times when Needwood fell!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>’Twas Avarice with his harpy claws,</div>
+      <div class='line'>Great Victim! rent thy guardian laws;</div>
+      <div class='line'>Loos’d Uproar with his ruffian bands;<a id='r43'></a><a href='#f43' class='c008'><sup>[43]</sup></a></div>
+      <div class='line'>Bade Havoc show his crimson’d hands;</div>
+      <div class='line'>Grinn’d a coarse smile, as thy last deer</div>
+      <div class='line'>Dropp’d in thy lap a dying tear;</div>
+      <div class='line'>Exulted in his schemes accurst,</div>
+      <div class='line'>When thy pierc’d heart, abandon’d, burst;</div>
+      <div class='line'>And, glozing on the public good,</div>
+      <div class='line'>Insidious demon! suck’d thy blood.</div>
+      <div class='line'>Detested ever be that day,</div>
+      <div class='line'>Which left thee a defenceless prey!</div>
+      <div class='line'>May never sun its presence cheer!</div>
+      <div class='line'>O be it blotted from the year!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Where now the Forest-freeman’s boast?</div>
+      <div class='line'>His joys, his hopes, his name are lost.</div>
+      <div class='line'><span class='pageno' id='Page_61'>61</span>Repentant claimants of the soil!<a id='r44'></a><a href='#f44' class='c008'><sup>[44]</sup></a>          <span class='lnum'>}</span></div>
+      <div class='line'>Your’s keen remorse and thankless toil;       <span class='lnum'>}</span></div>
+      <div class='line'>Strangers and hirelings snatch the spoil.     <span class='lnum'>}</span></div>
+      <div class='line'>Too late ye mourn your glory gone;</div>
+      <div class='line'>Too late the deed yourselves have done.</div>
+      <div class='line'>Thus, fell Owhyhee’s senseless crew,</div>
+      <div class='line'>Him, their best friend, their idol, slew;</div>
+      <div class='line'>Shar’d his torn limbs with savage pride;</div>
+      <div class='line'>Then griev’d, infatuate! that he died.</div>
+      <div class='line'>Ah, who but knows and loves the lay,</div>
+      <div class='line'>Which Seward hung on Cook’s Morai?</div>
+      <div class='line'>O had I such melodious tear,</div>
+      <div class='line'>Lamented Needwood, for thy bier!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Forests of England! ye might claim</div>
+      <div class='line'>A proud share in her ancient fame.</div>
+      <div class='line'>Tell your forgetful country, tell,</div>
+      <div class='line'>When dangers dread her state befell,</div>
+      <div class='line'>How rush’d your sons in hardy bands,</div>
+      <div class='line'>Their long bows in their skilful hands;</div>
+      <div class='line'><span class='pageno' id='Page_62'>62</span>How far the foremost and the best,<a id='r45'></a><a href='#f45' class='c008'><sup>[45]</sup></a></div>
+      <div class='line'>On fierce invading foes they press’d;</div>
+      <div class='line'>With what sure aim their arrows flew,</div>
+      <div class='line'>Whistling the death song ere they slew.</div>
+      <div class='line'>You, in your secret labyrinths, spread<a id='r46'></a><a href='#f46' class='c008'><sup>[46]</sup></a></div>
+      <div class='line'>Your dark shields o’er great Alfred’s head,</div>
+      <div class='line'>True to your charge. The ruthless Dane</div>
+      <div class='line'>Brandish’d his reeking blade in vain.</div>
+      <div class='line'>’Twas your’s to nurse that mighty mind,</div>
+      <div class='line'>Where every Virtue sat enshrin’d.</div>
+      <div class='line'>Your hush’d leaves parted, as the beams<a id='r47'></a><a href='#f47' class='c008'><sup>[47]</sup></a></div>
+      <div class='line'>Of glory shot, and fir’d his dreams.</div>
+      <div class='line'><span class='pageno' id='Page_63'>63</span>You fann’d his patriot bosom’s glow;</div>
+      <div class='line'>You tun’d his harp; you trimm’d his bow.<a id='r48'></a><a href='#f48' class='c008'><sup>[48]</sup></a></div>
+      <div class='line'>He imag’d in your wolves his foes;</div>
+      <div class='line'>And practis’d Vengeance keener rose.</div>
+      <div class='line'>Your proud oaks lean’d<a id='r49'></a><a href='#f49' class='c008'><sup>[49]</sup></a> to court the hand,</div>
+      <div class='line'>Which England’s conquering navy plann’d.</div>
+      <div class='line'>Your song-birds<a id='r50'></a><a href='#f50' class='c008'><sup>[50]</sup></a> taught him to convey</div>
+      <div class='line'>Mild manners in attractive lay;</div>
+      <div class='line'>While Liberty, the nymph you love,<a id='r51'></a><a href='#f51' class='c008'><sup>[51]</sup></a></div>
+      <div class='line'>Braided the silken bands he wove.</div>
+      <div class='line'>On circled lawns, in secret glade,</div>
+      <div class='line'>You marshall’d thousands to his aid,</div>
+      <div class='line'>Then gave him from your woods to shine</div>
+      <div class='line'>A Cæsar and an Antonine.</div>
+      <div class='line'>There the bright wreaths of Victory grew;</div>
+      <div class='line'>And Themis pluck’d her wand from you.</div>
+      <div class='line'><span class='pageno' id='Page_64'>64</span>Rouz’d vigorous by the morning air,</div>
+      <div class='line'>So quits the monarch stag his lair;<a id='r52'></a><a href='#f52' class='c008'><sup>[52]</sup></a></div>
+      <div class='line'>With fresh fray’d beams his rival seeks;<a id='r53'></a><a href='#f53' class='c008'><sup>[53]</sup></a></div>
+      <div class='line'>His meditated vengeance wreaks;</div>
+      <div class='line'>And, stamping on the mountain’s brow,</div>
+      <div class='line'>Claims homage from the vale below.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>On yonder castled cliff of old,<a id='r54'></a><a href='#f54' class='c008'><sup>[54]</sup></a></div>
+      <div class='line'>Needwood, how throng’d thy archers bold,</div>
+      <div class='line'>When there, for deeds of arms array’d,</div>
+      <div class='line'>His banner princely Gaunt display’d!</div>
+      <div class='line'>And fill’d they not his chosen ranks<a id='r55'></a><a href='#f55' class='c008'><sup>[55]</sup></a></div>
+      <div class='line'>On distant Ebro’s oliv’d banks?</div>
+      <div class='line'><span class='pageno' id='Page_65'>65</span>Spain’s boasted slingers! soon ye fled<a id='r56'></a><a href='#f56' class='c008'><sup>[56]</sup></a></div>
+      <div class='line'>From English bowmen, Forest-bred.</div>
+      <div class='line'>Fame stak’d her dearest honours there:</div>
+      <div class='line'>And won not Needwood’s sons their share?</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Illustrious History, bear me back</div>
+      <div class='line'>Up golden Time’s recorded track,</div>
+      <div class='line'>And bring from thy illumin’d page</div>
+      <div class='line'>The heroes of that martial age,</div>
+      <div class='line'>When knightly valour’s own right hand</div>
+      <div class='line'>Sought fame, and spoil, and high command!</div>
+      <div class='line'>Say, as they pass in bright review,</div>
+      <div class='line'>What favourite takes precedence due!</div>
+      <div class='line'>They come—the pride and pomp of war</div>
+      <div class='line'>Mark their disastrous course afar.</div>
+      <div class='line'>Ah, while the mad’ning trumpet brays,</div>
+      <div class='line'>Fields reek with blood and cities blaze;</div>
+      <div class='line'>Fell cries for glory or a crown</div>
+      <div class='line'>The skrieks of wives and orphans drown.</div>
+      <div class='line'><span class='pageno' id='Page_66'>66</span>See English Richard’s crest advance!—</div>
+      <div class='line'>Back from the lightning of his lance!</div>
+      <div class='line'>Hark! nations hail in loud accord<a id='r57'></a><a href='#f57' class='c008'><sup>[57]</sup></a></div>
+      <div class='line'>His lion heart and victor sword.</div>
+      <div class='line'>Cease, cease thy boasting, clarion vain!</div>
+      <div class='line'>Truth gives my lyre a purer strain.</div>
+      <div class='line'>Blush, as thy people, haughty king,</div>
+      <div class='line'>Shout for the man thy Minstrels bring,<a id='r58'></a><a href='#f58' class='c008'><sup>[58]</sup></a></div>
+      <div class='line'>And offer, with less guilty claim,</div>
+      <div class='line'>A Forest Yeoman’s humble name!</div>
+      <div class='line'>How sweetly pours that bugle shrill</div>
+      <div class='line'>It’s mellow tones o’er dale and hill,</div>
+      <div class='line'>As Sherwood’s Hero, down the glade,<a id='r59'></a><a href='#f59' class='c008'><sup>[59]</sup></a></div>
+      <div class='line'>Steps with his bow and bright brown blade,<a id='r60'></a><a href='#f60' class='c008'><sup>[60]</sup></a></div>
+      <div class='line'><span class='pageno' id='Page_67'>67</span>His feather’d arrows, broad and keen,</div>
+      <div class='line'>Hung lightly o’er his gown of green!</div>
+      <div class='line'>A robber! say’st thou? Thy harsh laws,</div>
+      <div class='line'>Oppressor, and the poor man’s cause</div>
+      <div class='line'>Led him, indignant, to the wood,</div>
+      <div class='line'>With bold pretence of rights withstood.</div>
+      <div class='line'>Churls, with no feeling but for self,</div>
+      <div class='line'>Yield to his better hands your pelf!</div>
+      <div class='line'>Such trespass Fear disdains to hide;</div>
+      <div class='line'>And hoodwink’d Justice peeps aside.</div>
+      <div class='line'>The liberal air his freeborn soul</div>
+      <div class='line'>Lifts high, in scorn of base controul.</div>
+      <div class='line'><span class='pageno' id='Page_68'>68</span>In fellowship and fealty bound,</div>
+      <div class='line'>Firm as the knights of Table Round,</div>
+      <div class='line'>Him and his hundred, tall and fleet,</div>
+      <div class='line'>Not twice two hundred care to meet.</div>
+      <div class='line'>Minions, oppose not his career!</div>
+      <div class='line'>He seeks no slaughter, but of deer.</div>
+      <div class='line'>Yet will he pass unquestion’d by:</div>
+      <div class='line'>Raise but your weapons and ye die!</div>
+      <div class='line'>Start not fair maids! your path pursue</div>
+      <div class='line'>Unharm’d; he guards its peace for you;</div>
+      <div class='line'>And cheers, on each occasion kind,</div>
+      <div class='line'>In age or want, the hamlet hind.</div>
+      <div class='line'>Here, warriors, to the Forest turn,</div>
+      <div class='line'>True courage and its use to learn!</div>
+      <div class='line'>Here, nobles, to the wood resort,</div>
+      <div class='line'>For courtesy unknown at court!—</div>
+      <div class='line'>Needwood, this brave man was thy guest;<a id='r61'></a><a href='#f61' class='c008'><sup>[61]</sup></a></div>
+      <div class='line'>Love crown’d the day, and Mirth the feast.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_69'>69</span>Region, where all delights were found,</div>
+      <div class='line'>How look’st thou now? a burial ground!</div>
+      <div class='line'>With sad memorials, here and there,</div>
+      <div class='line'>Of what was noble, free, and fair.</div>
+      <div class='line'>King’s-standing, with a tortur’d frown,<a id='r62'></a><a href='#f62' class='c008'><sup>[62]</sup></a></div>
+      <div class='line'>Marks its own splendour overthrown.</div>
+      <div class='line'>Whate’er of wood or lawn could please,</div>
+      <div class='line'>Whate’er of hills that rang’d with ease,</div>
+      <div class='line'>In grand assemblage broad display’d,</div>
+      <div class='line'>This far commanding mount survey’d.</div>
+      <div class='line'>How chang’d! those oaks, that tower’d so high,</div>
+      <div class='line'>Dismember’d, stript, extended, lie;</div>
+      <div class='line'>On the stain’d turf their wrecks are pil’d,<a id='r63'></a><a href='#f63' class='c008'><sup>[63]</sup></a></div>
+      <div class='line'>Where thousand Summers bask’d and smil’d;</div>
+      <div class='line'>In smouldering heaps their limbs consume;<a id='r64'></a><a href='#f64' class='c008'><sup>[64]</sup></a></div>
+      <div class='line'>The dark smoke marks their casual tomb;</div>
+      <div class='line'>From blacken’d brakes,<a id='r65'></a><a href='#f65' class='c008'><sup>[65]</sup></a> the choak’d winds toss</div>
+      <div class='line'>The ashes of the golden goss;</div>
+      <div class='line'><span class='pageno' id='Page_70'>70</span>While great with power, yon Wretch<a id='r66'></a><a href='#f66' class='c008'><sup>[66]</sup></a> derides</div>
+      <div class='line'>And boasts the mischief, which he guides.</div>
+      <div class='line'>Thus, when, in unsuspecting peace,</div>
+      <div class='line'>Rush’d Scythia’s hordes on fertile Greece,</div>
+      <div class='line'>Mars, their grim god, whom heaven abhors,</div>
+      <div class='line'>Urg’d with fell taunts to wasteful wars.</div>
+      <div class='line in2'>Valley! where Marebrook, all unveil’d,<a id='r67'></a><a href='#f67' class='c008'><sup>[67]</sup></a></div>
+      <div class='line'>Her slender line, far shining, trail’d,</div>
+      <div class='line'>With frequent curves thy slopes between,</div>
+      <div class='line'>As loth to quit the enticing scene;</div>
+      <div class='line'>Or turning with young fawns to play,</div>
+      <div class='line'>Wily and volatile as they;</div>
+      <div class='line'>Alluring, with her tinkling sweet,</div>
+      <div class='line'>From bank to bank their timid feet;</div>
+      <div class='line'>Lov’d Valley! now no charm invites</div>
+      <div class='line'>My steps to rove these injur’d heights;</div>
+      <div class='line'>Thy wavy knolls the fence arrests;</div>
+      <div class='line'>The rude spade wounds thy swelling breasts;</div>
+      <div class='line'>Rent her fair locks and mantle rich,</div>
+      <div class='line'>Forlorn along that hateful ditch</div>
+      <div class='line'><span class='pageno' id='Page_71'>71</span>Thy violated Naiad steals,</div>
+      <div class='line'>And in foul streams her shame conceals.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>These broad roots bore a secret grove,</div>
+      <div class='line'>Where I was wont at eve to rove;</div>
+      <div class='line'>And, while low-thoughted cares retired,</div>
+      <div class='line'>Wrapp’d in fond musings, Fancy-fir’d,</div>
+      <div class='line'>Saw what alone the mind’s eye sees;</div>
+      <div class='line'>Heard other whisperings than the breeze;</div>
+      <div class='line'>And knights and dames, and dwarfs portray’d,<a id='r68'></a><a href='#f68' class='c008'><sup>[68]</sup></a></div>
+      <div class='line'>And bright arms gleaming down the glade;</div>
+      <div class='line'>Drew Magic, muttering powerful spell;</div>
+      <div class='line'>And Witchcraft with demoniac yell.</div>
+      <div class='line'>Hark! the last trunk that axe assails;</div>
+      <div class='line'>See! the plough tears the writhing vales;</div>
+      <div class='line'>Stop, thoughtless clown! nor dare to bring</div>
+      <div class='line'>Destruction on that Fairy-Ring,</div>
+      <div class='line'>Imprinted deep with stainless green,</div>
+      <div class='line'>And lasting beauty, seldom seen.</div>
+      <div class='line'>E’en Winter paus’d that turf to spare;</div>
+      <div class='line'>Nor look’d the fiery Dog-star there.</div>
+      <div class='line'><span class='pageno' id='Page_72'>72</span>And once more may Titania come,</div>
+      <div class='line'>With farewell, to her ancient home;</div>
+      <div class='line'>But, for the bee bird’s gaudy plume,<a id='r69'></a><a href='#f69' class='c008'><sup>[69]</sup></a></div>
+      <div class='line'>Wav’d o’er her neck in quivering bloom,</div>
+      <div class='line'>Funereal spray of dismal hue,</div>
+      <div class='line'>Of cypress, or the baleful yew,</div>
+      <div class='line'>Join’d with the nightshade’s deadly flow’r,</div>
+      <div class='line'>Shall darkly o’er her forehead low’r.</div>
+      <div class='line'>Attendant Fays, in mournful throng,</div>
+      <div class='line'>Nor trace the dance, nor raise the song;</div>
+      <div class='line'>While, for the shrill reed’s cheerful sound,</div>
+      <div class='line'>That led them lightly tripping round,</div>
+      <div class='line'>Beetles and drones, with hummings low,</div>
+      <div class='line'>Measure their footfalls sad and slow.—</div>
+      <div class='line'>Alas, no gentle sprite remains!</div>
+      <div class='line'>But foul fiends scour th’ affrighted plains,</div>
+      <div class='line'>Rob of their honours hills and lawns,</div>
+      <div class='line'>Trace the mean ditch that greedy yawns,</div>
+      <div class='line'>And teach the reptile hedge to crawl;</div>
+      <div class='line'>Twin pests, confederate, seizing all.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_73'>73</span>What old man with his gray dog sits,</div>
+      <div class='line'>What blind man, by those sandy pits?</div>
+      <div class='line'>’Tis Manuel!<a id='r70'></a><a href='#f70' class='c008'><sup>[70]</sup></a>—and he rests him, where</div>
+      <div class='line'>My fox-earth was his nightly care.—</div>
+      <div class='line'>Ah, come not now to scenes so drear,</div>
+      <div class='line'>Gay hunters! scenes ye cannot cheer.</div>
+      <div class='line'>Ah venture not their threats to brave;</div>
+      <div class='line'>Nor trample on your Needwood’s grave!—</div>
+      <div class='line'>’Tis Manuel! and he knows my voice:</div>
+      <div class='line'>His tears, tho’ not his eyes, rejoice:</div>
+      <div class='line'>Reduc’d by age and loss of sight</div>
+      <div class='line'>To beggary and the parish mite,</div>
+      <div class='line'>That dog his only guide, he picks,</div>
+      <div class='line'>Groping in fear, those wretched sticks.</div>
+      <div class='line'>But soon will such small gleanings end.—</div>
+      <div class='line'>Thou, Needwood, wast the poor man’s friend!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Garden of Nature! on whose face</div>
+      <div class='line'>Contended fragrance, bloom, and grace;</div>
+      <div class='line'>Kind nurse of her abundant good</div>
+      <div class='line'>To human wants, from herb or wood,</div>
+      <div class='line'><span class='pageno' id='Page_74'>74</span>Tho’ seem the withering winds less rude</div>
+      <div class='line'>Than thoughtless man’s ingratitude;</div>
+      <div class='line'>Not all thy children droop forlorn,</div>
+      <div class='line'>Hurl’d from magnificence to scorn.</div>
+      <div class='line'>You, fox-gloves, through the varying year<a id='r71'></a><a href='#f71' class='c008'><sup>[71]</sup></a></div>
+      <div class='line'>Fresh, vigorous and countless here,</div>
+      <div class='line'>You, happy fox-gloves, as you fell,</div>
+      <div class='line'>In triumph clos’d each purple bell;</div>
+      <div class='line'>Proud that the bark of fam’d Peru</div>
+      <div class='line'>Was rival’d, British plant, by you.</div>
+      <div class='line'>Philosophy and Science rare</div>
+      <div class='line'>Had pitied Dropsy’s sad despair,</div>
+      <div class='line'>And pour’d your healing treasure forth;</div>
+      <div class='line'>While their own Bard extoll’d your worth;</div>
+      <div class='line'>Poet and Sage: hence doubly shine</div>
+      <div class='line'>Your honours on Hygiea’s shrine,</div>
+      <div class='line'>Where pleas’d Apollo stoop’d to yield</div>
+      <div class='line'>To Darwin’s hand his lyre and shield.<a id='r72'></a><a href='#f72' class='c008'><sup>[72]</sup></a></div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_75'>75</span>Again, to save this fair domain,<a id='r73'></a><a href='#f73' class='c008'><sup>[73]</sup></a></div>
+      <div class='line'>A Vernon strove, but strove in vain;</div>
+      <div class='line'>And many a noble heart was warm<a id='r74'></a><a href='#f74' class='c008'><sup>[74]</sup></a></div>
+      <div class='line'>The fell devourer’s rage to charm;</div>
+      <div class='line'>But mean Self-interest lit the flame,</div>
+      <div class='line'>Blind Furies fann’d; and Ruin came.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yet Limbrook prattles, in her pride,<a id='r75'></a><a href='#f75' class='c008'><sup>[75]</sup></a></div>
+      <div class='line'>Of ancient scenery on her side,</div>
+      <div class='line'>Calls, where her beauties still prevail,</div>
+      <div class='line'>To Byrkley Bowers and Yoxall Dale,</div>
+      <div class='line'>Boasts of deep shades and allies green,</div>
+      <div class='line'>And bids me mark that Forest mien,</div>
+      <div class='line'>Pleas’d, in this circlet, to secure</div>
+      <div class='line'>Her injur’d parents’ miniature;</div>
+      <div class='line'>And fain would cheer me, as she leads</div>
+      <div class='line'>By cultur’d banks to verdant meads;</div>
+      <div class='line'><span class='pageno' id='Page_76'>76</span>And spreads her mirrors to reflect</div>
+      <div class='line'>How Nature’s hand-maid, Art, hath deck’d</div>
+      <div class='line'>The matron here, with choicest bloom;—</div>
+      <div class='line'>Ah, garlands now for Needwood’s tomb!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Limbrook! protected child and heir,</div>
+      <div class='line'>Enjoy thy patrimony fair;</div>
+      <div class='line'>And ever, in thy favour’d bound,<a id='r76'></a><a href='#f76' class='c008'><sup>[76]</sup></a></div>
+      <div class='line'>Prosperity and Peace be found.</div>
+      <div class='line'>Yet long wilt thou lament the change</div>
+      <div class='line'>Of herds and flocks, that near thee range,</div>
+      <div class='line'>More loudly to thy rushes chide,</div>
+      <div class='line'>Since comes no doe her fawn to hide;</div>
+      <div class='line'>And long thy murmuring stream will shrink,</div>
+      <div class='line'>When stoops the stranger ewe to drink;<a id='r77'></a><a href='#f77' class='c008'><sup>[77]</sup></a></div>
+      <div class='line'>And long those oaks, Destruction spar’d,</div>
+      <div class='line'>Grieve for the greatness, once they shar’d,</div>
+      <div class='line'>And sigh, while, ages hence, appear</div>
+      <div class='line'>The tracks of their remember’d deer,<a id='r78'></a><a href='#f78' class='c008'><sup>[78]</sup></a></div>
+      <div class='line'><span class='pageno' id='Page_77'>77</span>And scatter, careless, to the wind,</div>
+      <div class='line'>Fruits, for their Autumn feast design’d.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Thus, when that monster of the world<a id='r79'></a><a href='#f79' class='c008'><sup>[79]</sup></a></div>
+      <div class='line'>Thy nobles from their honours hurl’d,</div>
+      <div class='line'>Oh France! a few, to fate resign’d,</div>
+      <div class='line'>All lost, but dignity of mind,</div>
+      <div class='line'>Still on the general wreck abide,</div>
+      <div class='line'>Terror and Tyranny beside,</div>
+      <div class='line'>And privileg’d in fall’n estate,</div>
+      <div class='line'>Walk humbly with the power they hate,</div>
+      <div class='line'>Regretful of their happier times,</div>
+      <div class='line'>And sighing o’er a nation’s crimes.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yet Byrkley Bowers, your Emma’s art<a id='r80'></a><a href='#f80' class='c008'><sup>[80]</sup></a></div>
+      <div class='line'>Such sweet delusion can impart,</div>
+      <div class='line'>Such truth her curious pencil gives,</div>
+      <div class='line'>That Needwood in its magic lives.</div>
+      <div class='line'><span class='pageno' id='Page_78'>78</span>O, haste to catch, ingenious maid,</div>
+      <div class='line'>His remnant beauties ere they fade:</div>
+      <div class='line'>So to th’ admiring world be shown</div>
+      <div class='line'>Fair forms, accomplish’d like your own!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Though aptly might these dells retain</div>
+      <div class='line'>Wild Fancy and her sylvan train,</div>
+      <div class='line'>I ask no fabled nymph to lend</div>
+      <div class='line'>Her idle aid, as I descend;</div>
+      <div class='line'>I seek not such attendants here;</div>
+      <div class='line'>But hail your presence and revere,</div>
+      <div class='line'>Truth, Genius, Science!—Yoxall Dale,</div>
+      <div class='line'>’Mong Forest Walks distinguish’d, hail!</div>
+      <div class='line'>Enough, that future times will say:</div>
+      <div class='line'>“Here Gisborne penn’d his moral lay,<a id='r81'></a><a href='#f81' class='c008'><sup>[81]</sup></a></div>
+      <div class='line'>“Practis’d the duties he enjoin’d,</div>
+      <div class='line'>“Led and instructed human kind,</div>
+      <div class='line'>“Here the high paths of Nature trod,</div>
+      <div class='line'>“And saw and glorified her God.”</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_79'>79</span>Gigantic hollies!<a id='r82'></a><a href='#f82' class='c008'><sup>[82]</sup></a> many a year</div>
+      <div class='line'>Your lopp’d limbs fed the pining deer;</div>
+      <div class='line'>And many a year, your growth renew’d,</div>
+      <div class='line'>In venerable solitude,</div>
+      <div class='line'>With arch and column, here you stood,</div>
+      <div class='line'>As once the Temple of the Wood.</div>
+      <div class='line'>The seasons wrought not on your form;</div>
+      <div class='line'>You bent not to the battering storm;</div>
+      <div class='line'>Arrested on each shrouded brow,</div>
+      <div class='line'>No wanton sunbeams pry’d below.—</div>
+      <div class='line'>Respected veterans! favourite glade!</div>
+      <div class='line'>Oft, as I pac’d your pensive shade,</div>
+      <div class='line'>Rapt Meditation mus’d in prayer;</div>
+      <div class='line'>Or self-indulgence soften’d care.—</div>
+      <div class='line'>These, Needwood, thy destroyers saw</div>
+      <div class='line'>And seiz’d, uncheck’d by shame or awe!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Fair Virgin! in that hallow’d gloom,<a id='r83'></a><a href='#f83' class='c008'><sup>[83]</sup></a></div>
+      <div class='line'>While the bell knoll’d thee to thy tomb,</div>
+      <div class='line'><span class='pageno' id='Page_80'>80</span>I chose a polish’d trunk to mark</div>
+      <div class='line'>Thy memory on its yielding bark:</div>
+      <div class='line'>As held in reverence profound,</div>
+      <div class='line'>The grove was motionless around,</div>
+      <div class='line'>Save that an ivy’s stragling leaf</div>
+      <div class='line'>Shook in the breathings of my grief;</div>
+      <div class='line'>Watch’d Pity through her starting tears,</div>
+      <div class='line'>Numbering too soon thy transient years;</div>
+      <div class='line'>Lorn Loves, that knew thee well, were by;</div>
+      <div class='line'>And Sorrow with reverted eye.</div>
+      <div class='line'>Yes; “thou wast all that youth admires,</div>
+      <div class='line'>A parent seeks, or friend desires!”</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Ah, if yet spar’d, to that lone shrine</div>
+      <div class='line'>Direct me, some remaining sign!</div>
+      <div class='line'>Or whispering airs instruct to find,</div>
+      <div class='line'>Soft as ye kiss the swelling rind!</div>
+      <div class='line'>Or gentle red-breast hop before!—</div>
+      <div class='line'>No; those retirements are no more.—</div>
+      <div class='line'>See the griev’d wood-dove on her flight!</div>
+      <div class='line'>And the scar’d owlet lost in light!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_81'>81</span>Hark! the same bell!—take, sister bier,<a id='r84'></a><a href='#f84' class='c008'><sup>[84]</sup></a></div>
+      <div class='line'>Affection’s sigh and friendship’s tear!</div>
+      <div class='line'>These for ourselves:—for thee, blest shade!</div>
+      <div class='line'>Amply thy debt of life was paid;</div>
+      <div class='line'>And gentle, as that life, thy fall;—</div>
+      <div class='line'>Rest honour’d, as belov’d by all!</div>
+      <div class='line'>Rest, while the parting Virtues bear</div>
+      <div class='line'>For heaven’s approof, thy record fair!</div>
+      <div class='line'>In yonder cloud that lowers above,</div>
+      <div class='line'>Darkening the cheerful face of Dove,</div>
+      <div class='line'>Their white plumes glimmer to the eye,</div>
+      <div class='line'>And radiant arms extend on high.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yes, Holly-Bush!<a id='r85'></a><a href='#f85' class='c008'><sup>[85]</sup></a>—endeared spot!</div>
+      <div class='line'>Forsaken long, but ne’er forgot!</div>
+      <div class='line'>Yes, Holly-Bush! through all disguise</div>
+      <div class='line'>I know thee, but with watery eyes!</div>
+      <div class='line'>With thee what warm emotions start!</div>
+      <div class='line'>What passions press upon my heart!</div>
+      <div class='line'><span class='pageno' id='Page_82'>82</span>Quick rushes my own change to view;</div>
+      <div class='line'>And wounds, yet tender, bleed anew.</div>
+      <div class='line'>I come not now to treasur’d sweets;</div>
+      <div class='line'>Blank my approach; no welcome greets;</div>
+      <div class='line'>No lifted sash, no smiling face</div>
+      <div class='line'>Salutes me, joyous from the chase;</div>
+      <div class='line'>No ready grooms my call await;</div>
+      <div class='line'>Leaps on its hinge no friendly gate;</div>
+      <div class='line'>Not for my meal that kitchen’s blaze;</div>
+      <div class='line'>Thy people on a stranger gaze;</div>
+      <div class='line'>And, for the fox-hound cow’ring bland,</div>
+      <div class='line'>Bays the fierce house-dog at his stand.</div>
+      <div class='line'>Yet, as my doubtful step withdraws,</div>
+      <div class='line'>Fresh memories plead for longer pause;</div>
+      <div class='line'>While mixes with each faint farewell</div>
+      <div class='line'>What only struggling sighs can tell.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yes, Holly-Bush!—here fled too fast</div>
+      <div class='line'>Fair hours, most valued now they’re past.</div>
+      <div class='line'>But not, in my regard, import</div>
+      <div class='line'>These structures of a prouder sort;</div>
+      <div class='line'><span class='pageno' id='Page_83'>83</span>And former fondness ill can brook</div>
+      <div class='line'>This order’d dress and inland look;<a id='r86'></a><a href='#f86' class='c008'><sup>[86]</sup></a></div>
+      <div class='line'>Thy flowery copse and bowers make room</div>
+      <div class='line'>For alien shrubs and new perfume;</div>
+      <div class='line'>Thy meek rill swells with glaring brim;</div>
+      <div class='line'>Thy rude paths march through gardens trim;</div>
+      <div class='line'>Ah, here no unambitious brow,<a id='r87'></a><a href='#f87' class='c008'><sup>[87]</sup></a></div>
+      <div class='line'>Nor my contented dwelling now!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>But thou remainest, favourite Tree!</div>
+      <div class='line'>Extend thy friendly canopy!</div>
+      <div class='line'>Ah! know me, sooth me, in my age,</div>
+      <div class='line'>And cheer this mournful pilgrimage!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Hall! whose kind arm is stretch’d between<a id='r88'></a><a href='#f88' class='c008'><sup>[88]</sup></a></div>
+      <div class='line'>The spoiler and yon Forest scene,</div>
+      <div class='line'><span class='pageno' id='Page_84'>84</span>Its green vale with its wooded banks,</div>
+      <div class='line'>(And Needwood’s honour owes thee thanks)</div>
+      <div class='line'>Save too this suppliant at thy door,</div>
+      <div class='line'>O save my spreading Sycamore!</div>
+      <div class='line'>It gave my window breezes sweet,</div>
+      <div class='line'>And shelter when the tempest beat;</div>
+      <div class='line'>When wild bees humm’d its boughs among,</div>
+      <div class='line'>Or cooing stock-dove watch’d her young,</div>
+      <div class='line'>Oft have I sat beneath its shade,</div>
+      <div class='line'>And bless’d my children, as they play’d.</div>
+      <div class='line'>Ah! let not Taste, with upstart pride,</div>
+      <div class='line'>This old domestic thrust aside;</div>
+      <div class='line'>This relic, generous owner! spare</div>
+      <div class='line'>To Needwood’s earliest poet’s prayer:</div>
+      <div class='line'>So prosper here thy fair designs;</div>
+      <div class='line'>So Beauty lend thee her own lines;</div>
+      <div class='line'>So here all social Pleasures throng;</div>
+      <div class='line'>And sweet Enjoyment flourish long.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Revered Swilcar!<a id='r89'></a><a href='#f89' class='c008'><sup>[89]</sup></a> kingly Oak!</div>
+      <div class='line'>Ill spar’d from thee th’ assassin’s stroke.</div>
+      <div class='line'><span class='pageno' id='Page_85'>85</span>How brilliant was thy sylvan court!</div>
+      <div class='line'>Of sons and subjects proud resort;</div>
+      <div class='line'>Here stately rang’d in close array;</div>
+      <div class='line'>There lightly group’d on carpets gay;</div>
+      <div class='line'>Attendant hollies glow’d beneath,</div>
+      <div class='line'>All arm’d; their crest a woodbine wreath.</div>
+      <div class='line'>In safety skipp’d the dappled herds;</div>
+      <div class='line'>Securely perch’d the choiring birds;</div>
+      <div class='line'>O’er charter’d ground thy broad shade spread;</div>
+      <div class='line'>In freedom wav’d thy sacred head,</div>
+      <div class='line'>Where age had whiten’d many a stem,</div>
+      <div class='line'>And plac’d an antler’d diadem.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Horrid!—I see thee far<a id='r90'></a><a href='#f90' class='c008'><sup>[90]</sup></a>—defac’d—</div>
+      <div class='line'>In fetters on a dreary waste,</div>
+      <div class='line'>With outstretch’d arms and bosom bare,</div>
+      <div class='line'>Appealing to the troubled air;</div>
+      <div class='line'>Yet taxing not the pelting storm;</div>
+      <div class='line'>But those, more cruel, who deform</div>
+      <div class='line'><span class='pageno' id='Page_86'>86</span>Thy rich retreats, thy turf defile</div>
+      <div class='line'>With fence, and road, and uses vile;</div>
+      <div class='line'>Nor of the whole, which Nature gave,</div>
+      <div class='line'>Leave thee enough to make thy grave,</div>
+      <div class='line'>When comes, as come it must, thy fall,</div>
+      <div class='line'><em>Lear</em> of the Forest, robb’d of all!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Enough; and from my trembling hand</div>
+      <div class='line'>Drops the sad lyre.—Abused Land,</div>
+      <div class='line'>Take my last strains! in happier days</div>
+      <div class='line'>I tun’d my rude horn to thy praise;</div>
+      <div class='line'>And (all I wish’d) the friends I lov’d</div>
+      <div class='line'>Those unassuming notes approv’d;</div>
+      <div class='line'>And some, with strength beyond its own,<a id='r91'></a><a href='#f91' class='c008'><sup>[91]</sup></a></div>
+      <div class='line'>In sweeter echoes cheer’d the tone;</div>
+      <div class='line'>To swell <em>this</em> tear, which sorrow drew,</div>
+      <div class='line'>Do <em>they</em> remain?—alas how few!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Swilcar! from thee a wither’d bough</div>
+      <div class='line'>Will best become my temples now.</div>
+      <div class='line'><span class='pageno' id='Page_87'>87</span>And pendent here my shell I leave</div>
+      <div class='line'>Mournfully mute; save when, at eve,</div>
+      <div class='line'>While Silence lists on brooding wings,</div>
+      <div class='line'>Soft airs shall brush the murmuring strings:</div>
+      <div class='line'>So still be fond complaint preferr’d,</div>
+      <div class='line'>Its master’s voice no longer heard!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Then haply some, who wander near</div>
+      <div class='line'>Musing, may lend a partial ear;</div>
+      <div class='line'>And if thy venerable age,</div>
+      <div class='line'>And awful size their hearts engage,</div>
+      <div class='line'>If Nature’s wood-wild walks they love,</div>
+      <div class='line'>If violated grandeur move,</div>
+      <div class='line'>Ah, will not indignation rise,</div>
+      <div class='line'>As Fancy views with weeping eyes,</div>
+      <div class='line'>Nymphs, Satyrs, Fauns, in cheerless row,</div>
+      <div class='line'>And Dian with a broken bow;</div>
+      <div class='line'>Hears Druid’s groan and Dryad’s shriek</div>
+      <div class='line'>Oft through the moonlight stillness break,</div>
+      <div class='line'>Yon prison’d cliffs<a id='r92'></a><a href='#f92' class='c008'><sup>[92]</sup></a> their griefs repeat,</div>
+      <div class='line'>Dove howling hoarsely at their feet?</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_88'>88</span>Region!—I lov’d thee at my heart—</div>
+      <div class='line'>Farewell!—for ever now we part.</div>
+      <div class='line'>Forest farewell!—delighted Time</div>
+      <div class='line'>Thee would have spar’d in endless prime;</div>
+      <div class='line'>Me, as he shakes my ebbing sands,</div>
+      <div class='line'>While MORTAL LIFE her roll expands,</div>
+      <div class='line'>Me, feebly bending o’er thy tomb,</div>
+      <div class='line'>He beckons to her COMMON HOME.—</div>
+      <div class='line'>Ah, human weakness! may a name,</div>
+      <div class='line'>Aspiring to no splendid fame,</div>
+      <div class='line'>Live, yet a little, in my SONGS</div>
+      <div class='line'>Of NEEDWOOD’S PRAISE and NEEDWOOD’S WRONGS!</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_89'>89</span>
+  <h2 class='c004'>MY GRAND CLIMACTERIC. 1802.</h2>
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in2'>As one, who journeys over unknown lands,</div>
+      <div class='line in2'>Ere yet the sun withdraws his western ray,</div>
+      <div class='line in2'>Stops on some mountain’s brow, whose site commands</div>
+      <div class='line in2'>The shifting scenes and labyrinths of the way;</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>With fond reverted look his thoughts retrace,</div>
+      <div class='line in2'>Where flowers their sweets, and wild-birds gave their song,</div>
+      <div class='line in2'>And dwell, long dwell! on many a favourite space,</div>
+      <div class='line in2'>Where prodigal of time he loiter’d long;</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Lovers and friends in bright perspective rise,</div>
+      <div class='line in2'>Companions of his morn, on yon blue hill;</div>
+      <div class='line in2'>Down that blank plain he drops a look, and sighs,</div>
+      <div class='line in2'>Whence seem their parting words to reach him still;</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_90'>90</span>Here his pain’d eyes unkindly districts mark,</div>
+      <div class='line in2'>Where faint heats smote him or fierce storms o’ertook;</div>
+      <div class='line in2'>There strain o’er deep’ning woods at noonday dark,</div>
+      <div class='line in2'>Where his false steps their destin’d course forsook;</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Pond’ring the change and chances of the day,</div>
+      <div class='line in2'>As warning eve prepares her veil to close,</div>
+      <div class='line in2'>Serious, he now proceeds with short survey,</div>
+      <div class='line'>Expecting night’s dark hour, and hoping calm repose:</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>So I look back on more than sixty years,</div>
+      <div class='line in2'>In life’s sequester’d walks obscurely spent,</div>
+      <div class='line in2'>Where tho’ its trophied head no column rears,</div>
+      <div class='line in2'>Inscrib’d with mighty deed, or proud event,</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yet, on some few small eminencies, glow</div>
+      <div class='line in2'>The heart’s rejoicing-lights of self-applause;</div>
+      <div class='line in2'>Some generous claims surmount the gloom below,</div>
+      <div class='line in2'>And shame and sharp regrets a moment pause;</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_91'>91</span>Yet these prevail—ah! might my wish prevail</div>
+      <div class='line in2'>That Time would turn my near exhausted glass;</div>
+      <div class='line in2'>Then not a grain should of its harvest fail;—</div>
+      <div class='line in2'>Seeds are but sands when unimprov’d they pass.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Vain wish! vain promise! what dost thou presume,</div>
+      <div class='line in2'>O weak Humanity? thyself but dust!</div>
+      <div class='line in2'>Since from the cradle, hourly, to the tomb,</div>
+      <div class='line in2'>Toil, trifle, err and grieve, frail thing! thou must.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>But pleasures, passions lose their dangerous force;</div>
+      <div class='line in2'>And the world’s business shrinks as age descends:</div>
+      <div class='line in2'>O spare Adversity! my evening course;</div>
+      <div class='line'>My little part is play’d, my small importance ends.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_92'>92</span>
+  <h2 class='c004'><span class='large'><em>To F. N. C. MUNDY, Esq.</em></span><br> <span class='small'>ON HIS POEM</span><br> THE FALL OF NEEDWOOD.</h2>
+</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in2'>Poet of Needwood, much my heart approves</div>
+      <div class='line'>This thy ow’d duty to his ravag’d groves,</div>
+      <div class='line'>The lost! the lovely! who in better days</div>
+      <div class='line'>View’d their each grace reflected in thy lays;</div>
+      <div class='line'>And O! when many a future Age has pass’d,</div>
+      <div class='line'>Rolling oblivious o’er his nameless Waste,</div>
+      <div class='line'>Its sometime beauties shall again revive,</div>
+      <div class='line'>And in thy pictur’d strains for <span class='fss'>EVER</span> live.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Come, pensive listening, ye once jocund Throng,</div>
+      <div class='line'>Whilome that rov’d those forest-haunts along;</div>
+      <div class='line'>Explor’d, with pleasure brightening in your air,</div>
+      <div class='line'>Each coy, green labyrinth and each turfy lair,</div>
+      <div class='line'>Still, as in pride of youth, the wanton Spring</div>
+      <div class='line'>Expanded to the Sun her showery wing,</div>
+      <div class='line'>And cliffs, illustrious in their golden bloom,</div>
+      <div class='line'>Rose o’er the glades of light-besprinkled gloom.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'><span class='pageno' id='Page_93'>93</span>Nor absent ye when Summer’s fervid Hours</div>
+      <div class='line'>Dropt more luxuriant curtains on the Bowers,</div>
+      <div class='line'>And the vast Oak’s writh’d arms of dusky green</div>
+      <div class='line'>Shadow’d the dappled Tenants of the Scene,</div>
+      <div class='line'>With rival Elm, whose mossy trunk appears</div>
+      <div class='line'>Out-numbering far the lonely Eagle’s years.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Nor when the Months consummate, left their vales</div>
+      <div class='line'>To Suns less ardent, less benignant gales,</div>
+      <div class='line'>And Autumn painted, with his tawny hand,</div>
+      <div class='line'>The shrinking foliage, and in colours bland</div>
+      <div class='line'>Streak’d the pale red with purple, faint and brief,</div>
+      <div class='line'>And tipt with tarnish’d gold each trembling leaf.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Nor e’en when Phœbus’ Steeds, no longer fleet,</div>
+      <div class='line'>With mane dishevel’d streaming to their feet,</div>
+      <div class='line'>Struggling thro’ clouds, th’ hybernal Solstice gain,</div>
+      <div class='line'>Their necks bedropt with globes of freezing rain,</div>
+      <div class='line'>And the loud Tyrant of the dying Year</div>
+      <div class='line'>Stript <span class='fss'>OTHER</span> Groves, made <span class='fss'>OTHER</span> Forests fear;</div>
+      <div class='line'>For Needwood to his sway disdain’d to yield;</div>
+      <div class='line'>His polish’d umbrage an unfailing shield,</div>
+      <div class='line'>Those numerous hollies on his breast and brow,</div>
+      <div class='line'>That thrust their scarlet clusters thro’ the snow,</div>
+      <div class='line'><span class='pageno' id='Page_94'>94</span>Or spread their glossy leaves to transient rays</div>
+      <div class='line'>The rebel Glory of the icy days.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Nor if, ere yet arisen, dim Morning heard</div>
+      <div class='line'>Your lightheel’d Coursers paw the dewy swerd,</div>
+      <div class='line'>When the sly Prowler stole adown the wind,</div>
+      <div class='line'>And hop’d he left no tell-tale scent behind.</div>
+      <div class='line'>Vain hope! your swift staunch hounds the search began,</div>
+      <div class='line'>To right and left their hurrying numbers ran,</div>
+      <div class='line'>Till found the taint, in streaming files they hie,</div>
+      <div class='line'>And in one shrill, continuous, clamouring cry,</div>
+      <div class='line'>To which th’ accordant Forest joyous rings,</div>
+      <div class='line'>Hang on his rear, while o’er the vale he springs,</div>
+      <div class='line'>Dash through the rhimy glades, and round the hills</div>
+      <div class='line'>As when receiving tribute brooks and rills</div>
+      <div class='line'>O’er flinty bed a River foams and roars,</div>
+      <div class='line'>Loud and impatient of meandering shores;</div>
+      <div class='line'>Or, deepen’d, shews the Sun his mirror’d face,</div>
+      <div class='line'>Or zones with silver light the mountain’s base.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Now come, with Mundy, where the Ruin lowers!</div>
+      <div class='line'>He hymns the dirge of the devasted Bowers.</div>
+      <div class='line'>Echo his wailings o’er their fallen state,</div>
+      <div class='line'>Whom Centuries hail’d irregularly great.</div>
+      <div class='line'><span class='pageno' id='Page_95'>95</span>Come, execrate the Edict that destroy’d,</div>
+      <div class='line'>Leaving Time-hallow’d Needwood bare and void!</div>
+      <div class='line'>There fell Imagination’s rural fane!</div>
+      <div class='line'>Thence fled fair-shafted Dian’s votive Train,</div>
+      <div class='line'>All which the Bard, entranc’d, in forest sees,</div>
+      <div class='line'>Satyrs and Fauns and leaf-crown’d Dryades.</div>
+      <div class='line'>They fled when Avarice, with rapacious frown,</div>
+      <div class='line'>From Mercia’s temples struck her sylvan crown.</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>Yet, gentle Minstrel, they whose raptur’d ears</div>
+      <div class='line'>Drank thy sweet Song in the departed years;</div>
+      <div class='line'>Saw oaken wreaths thy auburn brows entwine,</div>
+      <div class='line'>The well-won meed at Needwood’s shadowy shrine,</div>
+      <div class='line'>Shall find thy Gratulation’s vivid glow</div>
+      <div class='line'>Match’d by thy Requiem in its mournful flow;</div>
+      <div class='line'>The orb of Mundy’s Muse-illumin’d day</div>
+      <div class='line'>Setting with rival tho’ with milder ray;</div>
+      <div class='line'>Pleas’d shall compare the evening with the noon,</div>
+      <div class='line'>And feel, in equal power, the Cypress Garland won.</div>
+    </div>
+    <div class='group'>
+      <div class='line in32'>ANNA SEWARD.<a id='r93'></a><a href='#f93' class='c008'><sup>[93]</sup></a></div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_96'>96</span>
+  <h2 class='c004'>IMPROMPTU.<br> <span class='small'>TO THE AUTHOR OF THE NEW POEM, ENTITLED</span><br> THE FALL OF NEEDWOOD.</h2>
+</div>
+<div class='c012'>OCTOBER, 1808.</div>
+
+<div class='lg-container-b c010'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in2'>When Poesy, the Child of Zeal,</div>
+      <div class='line'>Who soothes each Pang, that Earth can feel,</div>
+      <div class='line'>Beheld, at wounded Nature’s call,</div>
+      <div class='line'>That Scene of Horror, Needwood’s Fall!</div>
+      <div class='line'>She said, in haste to yield Relief,</div>
+      <div class='line'>And calm the Mighty Mother’s Grief:</div>
+      <div class='line in2'>“Nature! dear Parent! Power divine!</div>
+      <div class='line'>Whose Joys and Griefs are truly mine!</div>
+      <div class='line'>To you my sympathy devotes</div>
+      <div class='line'>My chearful, and my plaintive Notes:</div>
+      <div class='line'>With Feelings not to be supprest,</div>
+      <div class='line'>I view your lacerated Breast;</div>
+      <div class='line'>This Waste of Ravages! where stood</div>
+      <div class='line'>Your Sylvan Wealth! your graceful Wood!</div>
+      <div class='line'>I cannot from the rifled Earth</div>
+      <div class='line'>Call into sudden, second Birth</div>
+      <div class='line'><span class='pageno' id='Page_97'>97</span>The Forest, vanished from your sight,</div>
+      <div class='line'>Tho’ once your Pride! and my Delight!</div>
+      <div class='line'>But I can raise, in your Distress,</div>
+      <div class='line'>A Charm, that scarce will soothe you less;</div>
+      <div class='line'>Behold this Proof of my Regard,</div>
+      <div class='line'>In Needwood’s fascinating Bard!</div>
+    </div>
+    <div class='group'>
+      <div class='line in2'>He, whom our blended Gifts engage</div>
+      <div class='line'>To sing, with youthful Fire, in age,</div>
+      <div class='line'>He, Needwood! by whose Breath you live,</div>
+      <div class='line'>Gives you, whatever Verse can give;</div>
+      <div class='line'>He makes immortal, in his Songs,</div>
+      <div class='line'>Your Beauties all, and all your Wrongs:</div>
+      <div class='line'>His Verse displays a deathless Charm,</div>
+      <div class='line'>That foils the Force of Havoc’s Arm;</div>
+      <div class='line'>Age after Age, while Nymphs are found</div>
+      <div class='line'>To breathe Delight on English Ground,</div>
+      <div class='line'>The grateful Dryads will admire</div>
+      <div class='line'>The Magic of their Mundy’s Lyre;</div>
+      <div class='line'>And boast the Wood, he lov’d to praise,</div>
+      <div class='line'>For ever verdant in his Lays.</div>
+    </div>
+    <div class='group'>
+      <div class='line in32'>W. HAYLEY.</div>
+    </div>
+  </div>
+</div>
+
+<hr class='c013'>
+<div class='footnote' id='f1'>
+<p class='c014'><a href='#r1'>1</a>. [<span class='sc'>Dove</span>, <em>etc.</em>] The river <em>Dove</em>.</p>
+</div>
+<div class='footnote' id='f2'>
+<p class='c014'><a href='#r2'>2</a>. [<em>And bids his hollies, etc.</em>] The numerous groves and clumps of hollies give uncommon
+beauty to the winter-scenes of <em>Needwood Forest</em>.</p>
+</div>
+<div class='footnote' id='f3'>
+<p class='c014'><a href='#r3'>3</a>. [<span class='sc'>Emes</span>, <em>etc.</em>] Mr. <span class='sc'>Emes</span>, who ornamented <em>Beaudesart</em>, the seat of Ld. <span class='sc'>Paget</span>, which
+is seen from the Forest, and who has obtained great reputation for his Taste in ornamental
+Gardening, has frequently assured the Author, that he took his best hints from
+the scenes of <em>Needwood</em>.</p>
+</div>
+<div class='footnote' id='f4'>
+<p class='c014'><a href='#r4'>4</a>. [<em>Maim’d the staunch hound, etc.</em>] Alludes to the Order for <em>Lawing</em>, or cutting off a claw
+of all Dogs kept within the purlieus of the royal forests, to prevent their destroying
+the Deer.</p>
+</div>
+<div class='footnote' id='f5'>
+<p class='c014'><a href='#r5'>5</a>. [<em>Here with fair peace, etc.</em>] The Author rents his house, upon the verge of the forest,
+of Sir <span class='sc'>Wm. Bagot</span>. It was built and inhabited by two gentlemen of the <span class='sc'>Bagot</span>
+family.</p>
+</div>
+<div class='footnote' id='f6'>
+<p class='c014'><a href='#r6'>6</a>. [<em>And</em> <span class='sc'>Arden</span> <em>boasts, etc.</em>] See <span class='sc'>Shakespear’s</span> <cite>As you like it</cite>.—Scene Forest of Arden.</p>
+</div>
+<div class='footnote' id='f7'>
+<p class='c014'><a href='#r7'>7</a>. [<em>The wandering Wood, etc.</em>] Fairy Queen, Book 1st. chap. 1st. stanza 13th.
+<em>This is the wandering Wood, this Errors den.</em></p>
+</div>
+<div class='footnote' id='f8'>
+<p class='c014'><a href='#r8'>8</a>. [<em>And bears away, etc.</em>] B. 1st. c. 2d. The Shield inscribed <em>Sans Foy</em>.</p>
+</div>
+<div class='footnote' id='f9'>
+<p class='c014'><a href='#r9'>9</a>. [<em>A gaudy bee-bird’s, etc.</em>] The Humming Bird.</p>
+</div>
+<div class='footnote' id='f10'>
+<p class='c014'><a href='#r10'>10</a>. [<em>And there in gothic arches, etc.</em>] Dr. Warburton observes the gothic architecture
+originally imitated the groves, which were in earlier times consecrated to religious
+worship.</p>
+
+<div class='c015'><span class='sc'>Divine Legation.</span></div>
+</div>
+<div class='footnote' id='f11'>
+<p class='c014'><a href='#r11'>11</a>. [<em>One like a sexton, etc.</em>] Earth-stopper.</p>
+</div>
+<div class='footnote' id='f12'>
+<p class='c014'><a href='#r12'>12</a>. [<em>Where this gay mount, etc.</em>] A beautiful eminence called <span class='sc'>King’s-Standing</span>.</p>
+</div>
+<div class='footnote' id='f13'>
+<p class='c014'><a href='#r13'>13</a>. [<em>And</em> <span class='sc'>Lichfield’s</span> <em>bower, etc.</em>] <span class='sc'>Lichfield</span> Bower is supposed to be the tumulus of
+three Saxon Kings slain in battle near that spot.</p>
+</div>
+<div class='footnote' id='f14'>
+<p class='c014'><a href='#r14'>14</a>. [<em>British Nile, etc.</em>] Dr. <span class='sc'>Plott</span> calls the <span class='sc'>Dove</span> the Nile of England, and attributes the
+fertility of its floods to the sheep dung washed from the hills in the Moorlands.</p>
+</div>
+<div class='footnote' id='f15'>
+<p class='c014'><a href='#r15'>15</a>. [<span class='sc'>Brown</span>, <em>etc.</em>] <span class='sc'>Hawkins Brown</span> Esq; of <em>Foston upon Dove</em>.</p>
+</div>
+<div class='footnote' id='f16'>
+<p class='c014'><a href='#r16'>16</a>. [<span class='sc'>C’andish</span>, <em>etc.</em>] <em>Doveridge</em>, the seat of <span class='sc'>C’andish, Esq</span>;</p>
+</div>
+<div class='footnote' id='f17'>
+<p class='c014'><a href='#r17'>17</a>. [<span class='sc'>Fitzherbert</span>, <em>etc.</em>] <span class='sc'>Richard Fitzherbert, Esq</span>; of <em>Sommershall</em>.</p>
+</div>
+<div class='footnote' id='f18'>
+<p class='c014'><a href='#r18'>18</a>. [<em>The social flag, etc.</em>] Messrs. <span class='sc'>Adderley</span> and <span class='sc'>Scott</span> have pitched a tent upon a fine
+hill above <em>Coton</em>, from whence a flag flies when they are at home, as a signal to their
+friends.</p>
+</div>
+<div class='footnote' id='f19'>
+<p class='c014'><a href='#r19'>19</a>. [<em>Outlaw, etc.</em>] A Deer-stealer refusing to surrender was here slain by a Keeper.</p>
+</div>
+<div class='footnote' id='f20'>
+<p class='c014'><a href='#r20'>20</a>. [<em>Where life a gentler breast, etc.</em>] This unfortunate young man being sent on an errand
+by the Author of this Poem, died on his return; was found next morning in the forest
+within a mile of his home, his dog standing by him. He was a weaver, supported his
+father and mother; was engaged on the night of his death to meet his sweetheart at a
+Christmas feast in the neighbourhood.</p>
+</div>
+<div class='footnote' id='f21'>
+<p class='c014'><a href='#r21'>21</a>. [<em>Yon cliff, etc.</em>] <span class='sc'>Tutbury Castle.</span></p>
+</div>
+<div class='footnote' id='f22'>
+<p class='c014'><a href='#r22'>22</a>. [<span class='sc'>Ferrers</span>, <em>etc.</em>] <span class='sc'>Robert de Ferrers</span> joining a rebellion against <span class='sc'>Henry</span> 3d. forfeited
+the possession of <em>Tutbury</em>.</p>
+</div>
+<div class='footnote' id='f23'>
+<p class='c014'><a href='#r23'>23</a>. [<em>Castle-guard, etc.</em>] A service imposed upon those to whom Castles and Estates adjoining
+were granted.</p>
+</div>
+<div class='footnote' id='f24'>
+<p class='c014'><a href='#r24'>24</a>. [<span class='sc'>Mary</span>, <em>etc.</em>] <span class='sc'>Mary</span> Queen of <em>Scots</em> was a prisoner in <em>Tutbury</em> Castle at the time
+of the Duke of <span class='sc'>Norfolk</span>’s intrigues: she listened to his proposals of marriage, as
+the only means of obtaining her liberty, declaring herself otherwise averse to farther
+matrimonial connections.</p>
+</div>
+<div class='footnote' id='f25'>
+<p class='c014'><a href='#r25'>25</a>. [<em>While minstrels, etc.</em>] The minstrels formerly crowded to <em>Tutbury</em> Castle, then a place
+of festivity and hospitality, in such numbers, as to require regulations of order and
+precedence amongst them, the person appointed for this purpose was called <em>King</em> of the
+<em>Minstrels</em>.</p>
+</div>
+<div class='footnote' id='f26'>
+<p class='c014'><a href='#r26'>26</a>. [<em>In the rude sport, etc.</em>] The annual Bull-running.</p>
+</div>
+<div class='footnote' id='f27'>
+<p class='c014'><a href='#r27'>27</a>. [<em>Yon hill, etc.</em>] <span class='sc'>Hound-hill</span>, the ancient seat of the <span class='sc'>Vernon’s</span>.</p>
+</div>
+<div class='footnote' id='f28'>
+<p class='c014'><a href='#r28'>28</a>. [<em>Beside me lies, etc.</em>] The situation of <span class='sc'>Needwood</span> is high, and its banks, descending
+from the plain of the forest to the country below, are in many places a mile deep;
+they consist of alternate cliffs and dingles, and are entirely covered with trees and
+rough copses.</p>
+</div>
+<div class='footnote' id='f29'>
+<p class='c014'><a href='#r29'>29</a>. [<em>Yes</em>, <span class='sc'>Eaton-Banks</span>, <em>etc.</em>] <span class='sc'>Eaton-Wood</span>, seen from the Forest, was the property
+of the late <span class='sc'>Godfry Bagnell Clarke, Esquire</span>.</p>
+</div>
+<div class='footnote' id='f30'>
+<p class='c014'><a href='#r30'>30</a>. [<span class='sc'>Henry</span>, <em>etc.</em>] The Hon. <span class='sc'>Henry Vernon</span>.</p>
+</div>
+<div class='footnote' id='f31'>
+<p class='c014'><a href='#r31'>31</a>. [<em>On breezy wings, etc.</em>] A Deer when hunted runs against the Wind.</p>
+</div>
+<div class='footnote' id='f32'>
+<p class='c014'><a href='#r32'>32</a>. [<em>No shrite-cock, etc.</em>] The Shrite-cock or Missel Thrush.</p>
+</div>
+<div class='footnote' id='f33'>
+<p class='c014'><a href='#r33'>33</a>. [<em>Destruction’s arm, etc.</em>] By order from the Dutchy Court of <span class='sc'>Lancaster</span>, to which
+the forest of <span class='sc'>Needwood</span> belongs, the timber is now felling under the direction of
+an officer of that Court.</p>
+</div>
+<div class='footnote' id='f34'>
+<p class='c014'><a href='#r34'>34</a>. [<em>Huge</em> <span class='sc'>Swilcar</span>, <em>etc.</em>] <span class='sc'>Swilcar</span> Oak stands singly upon a beautiful small lawn surrounded
+with extensive woods,—it is of remarkable size, and supposed to be six
+hundred years old.</p>
+</div>
+<div class='footnote' id='f35'>
+<p class='c014'><a href='#r35'>35</a>. [<em>Accursed</em> <span class='sc'>Julius</span>, <em>etc.</em>] <span class='sc'>Cæsar</span> cuts down a consecrated grove. <span class='sc'>Lucan</span>, lib. 3.</p>
+</div>
+<div class='footnote' id='f36'>
+<p class='c014'><a href='#r36'>36</a>. [<em>In freedom’s dearest days, etc.</em>] The charter of <span class='sc'>Hen.</span> 3. confirms the privilege to Lords
+of parliament of killing a Deer or two in any of the royal forests in their way to or
+from parliament, in the presence of the keeper, or on blowing a horn in his absence.—’tis
+about six hundred years since that king reigned.</p>
+</div>
+<div class='footnote' id='f37'>
+<p class='c014'><a href='#r37'>37</a>. [<em>Yet, yet, fond Hope, etc.</em>] Upon the above order from the Dutchy Court, Ld. <span class='sc'>Vernon</span>
+proposed an inclosure of some parts of the forest, for the preservation of the young
+timber, and the beauty of the place.</p>
+</div>
+<div class='footnote' id='f38'>
+<p class='c014'><a href='#r38'>38</a>. [<em>Flake of snow, etc.</em>] Flake-white.</p>
+</div>
+<div class='footnote' id='f39'>
+<p class='c014'><a href='#r39'>39</a>. [<em>Lakes, etc.</em>] Carnation Colours.</p>
+</div>
+<div class='footnote' id='f40'>
+<p class='c014'><a href='#r40'>40</a>. [<em>Where Desolation, etc.</em>] The trees in some parts have been so injudiciously fallen, that the tillage
+of the ground is extremely difficult, or quite at a stand.</p>
+</div>
+<div class='footnote' id='f41'>
+<p class='c014'><a href='#r41'>41</a>. [<em>Long Mercia sat beside enthron’d</em>;] The magnificent site of the castle at Tutbury, no doubt was
+occupied by a considerable fort in or before the time of the Saxon heptarchy when it
+was the residence of the Kings and Earls of Mercia, who might alternately enjoy hence
+the pleasures of the chase in their adjoining forest of Needwood, or the satisfaction of
+security against an enemy.—Shaw’s <cite>History of Staffordshire</cite>.</p>
+</div>
+<div class='footnote' id='f42'>
+<p class='c014'><a href='#r42'>42</a>. [<em>And prouder crowns its honours own’d.</em>] See Needwood Forest, p. 23, of King’s-Standing.</p>
+</div>
+<div class='footnote' id='f43'>
+<p class='c014'><a href='#r43'>43</a>. [<em>Loos’d Uproar &#38;c.</em>] The day of disafforesting presented an extraordinary scene of riot and disturbance,
+in consequence of the pursuit of the remaining deer by mobs from all parts.</p>
+</div>
+<div class='footnote' id='f44'>
+<p class='c014'><a href='#r44'>44</a>. [<em>Repentant claimants &#38;c.</em>] It is believed that the freeholders now very generally regret the Inclosure.</p>
+</div>
+<div class='footnote' id='f45'>
+<p class='c014'><a href='#r45'>45</a>. [<em>How far the foremost and the best</em>,] Though formerly the yeomanry of this kingdom were every
+where trained to the use of the long-bow, and excelled all other nations in the art of
+shooting, it may be reasonably presumed that the best archers were to be found in and
+near the forests.</p>
+</div>
+<div class='footnote' id='f46'>
+<p class='c014'><a href='#r46'>46</a>. [<em>You in your secret labyrinths &#38;c.</em>] Those scenes (forests in Somersetshire) will ever be famous in
+British history, while the remembrance continues of Alfred the Great. Frequent inundations
+of Danes and repeated losses had driven him from the management of affairs.
+But he retired before the enemies of his country only to attack them with more advantage.
+Seeing the time ripe for action he emerged from his retreat where he had been concealed,
+but not inactive during a twelvemonth; called his friends together in the forest of Selwood,
+which sheltered him and his numbers. Here arranging his followers, he burst
+from the forest like a torrent upon the Danes, and totally defeated them.—<cite>Gilpin’s
+Forest Scenery, Hume, &#38;c.</cite></p>
+</div>
+<div class='footnote' id='f47'>
+<p class='c014'><a href='#r47'>47</a>. [<em>Your hush’d leaves &#38;c.</em>] Alfred on the night of his retirement from the Danes, it is said, had a
+vision of St. Cuthbert, comforting and assuring him he should be a great King.—<cite>Camden’s
+Britannia.</cite></p>
+</div>
+<div class='footnote' id='f48'>
+<p class='c014'><a href='#r48'>48</a>. [<em>You tun’d his harp, you trimm’d his bow.</em>] He was skilful in the use of both.</p>
+</div>
+<div class='footnote' id='f49'>
+<p class='c014'><a href='#r49'>49</a>. [<em>Your proud oaks lean’d</em>] He provided himself with a naval power, which though the most natural
+defence of an island, had hitherto been totally neglected by the English.</p>
+</div>
+<div class='footnote' id='f50'>
+<p class='c014'><a href='#r50'>50</a>. [<em>Your song-birds</em>] He endeavoured to convey his morality to his subjects by apologues, parables,
+stories, and apothegms couch’d in poetry.</p>
+</div>
+<div class='footnote' id='f51'>
+<p class='c014'><a href='#r51'>51</a>. [<em>While Liberty &#38;c.</em>] Amidst the necessary rigor of justice this great Prince preserved the most
+sacred regard to the liberty of his people.</p>
+</div>
+<div class='footnote' id='f52'>
+<p class='c014'><a href='#r52'>52</a>. [<em>Lair</em>] The couch or harbour of a wild beast. <em>Milton.</em></p>
+</div>
+<div class='footnote' id='f53'>
+<p class='c014'><a href='#r53'>53</a>. [<em>With fresh fray’d beams &#38;c.</em>] As soon as the new horns (or beams) of a stag have acquired their
+full dimensions and solidity, he rubs them against the trees in order to clear them of a
+skin with which they are covered.—<cite>Buffon.</cite> To fray (<em>frayer</em>, <em>Fr.</em>) is the hunting term
+for this operation.</p>
+</div>
+<div class='footnote' id='f54'>
+<p class='c014'><a href='#r54'>54</a>. [<em>On yonder castled cliff &#38;c.</em>] Tutbury castle, the residence of John of Gaunt Duke of Lancaster.</p>
+</div>
+<div class='footnote' id='f55'>
+<p class='c014'><a href='#r55'>55</a>. [<em>And fill’d they not &#38;c.</em>] The Duke of Lancaster greatly distinguished himself in a battle fought
+between Najara and Navarete near the Ebro in Spain in 1367. He commanded the
+1st battalion of the English army.—<cite>Johnes’s Froissart.</cite></p>
+</div>
+<div class='footnote' id='f56'>
+<p class='c014'><a href='#r56'>56</a>. [<em>Spain’s boasted slingers &#38;c.</em>] The Spanish commonalty made use of slings, to which they were accustomed,
+&#38; from which they threw large stones which at first much annoyed the English:
+but when their first cast was over, and they felt the sharpness of the English arrows,
+they kept no longer any order.—<cite>Johnes’s Froissart.</cite></p>
+</div>
+<div class='footnote' id='f57'>
+<p class='c014'><a href='#r57'>57</a>. [<em>Hark! nations hail &#38;c.</em>] Alluding to his prowess and fame in the Crusades.</p>
+</div>
+<div class='footnote' id='f58'>
+<p class='c014'><a href='#r58'>58</a>. [<em>The man thy Minstrels bring</em>,] As the subject of their historic ballads. The minstrels were
+much encouraged in this King’s reign.</p>
+</div>
+<div class='footnote' id='f59'>
+<p class='c014'><a href='#r59'>59</a>. [<em>As Sherwood’s Hero, &#38;c.</em>] The severity of those tyrannical forest-laws that were introduced by our
+Norman Kings, and the great temptation of breaking them by such as lived near the
+royal forests, must constantly have occasioned great numbers of outlaws, and especially
+of such as were the best marksmen. These naturally fled to the woods for shelter, and
+forming into troops endeavoured by their numbers to protect themselves from the dreadful
+penalties of their delinquency. This will easily account for the troops of banditti, which
+formerly lurked in the Royal forests, and from their superior skill in archery and knowledge
+of the recesses of those unfrequented solitudes, found it no difficult matter to resist
+or elude the civil power. Among those, none was ever more famous than Robin
+Hood, the Hero of Sherwood forest; of whom Stow’s account is briefly thus.—“In
+this time (about the year 1190, in the reign of Richard 1st) were many robbers and outlaws,
+among the which Robin Hood and Little John, renowned thieves, continued in woods
+despoyling and robbing the goods of the rich. They killed none but such as would invade
+them, or by resistance for their own defence. The saide Robert entertained an
+hundred tall men and good archers with such spoiles and thefts as he got, upon whom
+four hundred (were they ever so strong) durst not give the onset. He suffered no woman
+to be oppressed, violated, or otherwise molested: poor mens goods he spared abundantlie,
+relieving them with that, which by theft he got from Abbeys and the houses of rich
+Carles.” The personal courage of this celebrated outlaw, his skill in archery, his humanity,
+and especially his levelling principle of taking from the rich and giving to the
+poor, have in all ages rendered him the favourite of the common people. He was in
+early times the favourite subject of popular songs.—<cite>Percy’s Reliques of antient English
+Poetry, 1st vol.</cite></p>
+</div>
+<div class='footnote' id='f60'>
+<p class='c014'><a href='#r60'>60</a>. [<em>Bright brown blade, broad arrows, gown of green</em>,] is the language of the ballads.</p>
+</div>
+<div class='footnote' id='f61'>
+<p class='c014'><a href='#r61'>61</a>. [<em>Needwood, this brave man &#38;c.</em>] See in Robin Hood’s garland a ballad, (quoted in Shaw’s History
+of Staffordshire) giving an account of Robin Hood’s visit to Tutbury; and of his
+marriage there with Clorinda.________ The relation of the forest to Tutbury
+will probably admit of this consideration of them as one and the same.</p>
+</div>
+<div class='footnote' id='f62'>
+<p class='c014'><a href='#r62'>62</a>. [<em>King’s-standing, &#38;c.</em>] See Needwood Forest, page 23.</p>
+</div>
+<div class='footnote' id='f63'>
+<p class='c014'><a href='#r63'>63</a>. [<em>On the stain’d turf their wrecks are pil’d</em>,] Bark-ranges.</p>
+</div>
+<div class='footnote' id='f64'>
+<p class='c014'><a href='#r64'>64</a>. [<em>In smouldering heaps, &#38;c.</em>] Making charcoal.</p>
+</div>
+<div class='footnote' id='f65'>
+<p class='c014'><a href='#r65'>65</a>. [<em>From blacken’d brakes</em>,] Burning the furze-brakes.—Goss.—<cite>Bailey’s Dictionary.</cite></p>
+</div>
+<div class='footnote' id='f66'>
+<p class='c014'><a href='#r66'>66</a>. [<em>Yon Wretch</em>] Surveyor or overlooker.</p>
+</div>
+<div class='footnote' id='f67'>
+<p class='c014'><a href='#r67'>67</a>. [<em>Valley! where Marebrook, all unveil’d</em>,] This Valley nearly bisected the Forest in beautifully
+varied windings, though without trees of any kind on its sides, or on the verge of its
+little stream, Marebrook, the course of which was remarkably flexuous; but is now
+actually turned down the straight fence-ditch.</p>
+</div>
+<div class='footnote' id='f68'>
+<p class='c014'><a href='#r68'>68</a>. [<em>And knights and dames, and dwarfs portray’d, &#38;c.</em>] Needwood Forest, p. 16.</p>
+</div>
+<div class='footnote' id='f69'>
+<p class='c014'><a href='#r69'>69</a>. [<em>But for the bee bird’s gaudy plume, &#38;c.</em>] See Needwood Forest, p. 16.</p>
+</div>
+<div class='footnote' id='f70'>
+<p class='c014'><a href='#r70'>70</a>. [<em>Manuel.</em>] The Forest earth-stopper in the hunting days of the author.</p>
+</div>
+<div class='footnote' id='f71'>
+<p class='c014'><a href='#r71'>71</a>. [<em>You fox-gloves, &#38;c.</em>] <em>See</em> <em>Digitalis—Loves of the plants, p. 78.</em></p>
+
+<p class='c014'>“The effect of this plant (the fresh leaves of which may be had at all seasons of the year) in
+that kind of Dropsy which is termed anasarca is truly astonishing.”</p>
+</div>
+<div class='footnote' id='f72'>
+<p class='c014'><a href='#r72'>72</a>. [<em>Lyre and shield.</em>] As the God of Medicine, giving health and safety, Apollo is sometimes
+described with a shield, as well as a lyre.</p>
+</div>
+<div class='footnote' id='f73'>
+<p class='c014'><a href='#r73'>73</a>. [<em>Again to save &#38;c.</em>] See Needwood Forest, p. 43.</p>
+</div>
+<div class='footnote' id='f74'>
+<p class='c014'><a href='#r74'>74</a>. [<em>And many a noble heart &#38;c.</em>] Alluding to the opposition to the Inclosure.</p>
+</div>
+<div class='footnote' id='f75'>
+<p class='c014'><a href='#r75'>75</a>. [<em>Yet Limbrook, &#38;c.</em>] This rivulet rises on the late Forest and takes its course through an extensive
+valley on the brow of which stands Byrkley Lodge, and proceeds downwards by Yoxall
+Lodge: some beautiful Forest scenes have been added to the old Inclosures of these
+Lodges, where are shrubberies and sheets of water.</p>
+</div>
+<div class='footnote' id='f76'>
+<p class='c014'><a href='#r76'>76</a>. [<em>And ever, in thy favour’d bound</em>,] Applying the whole scenery around these lodges to Limbrook.</p>
+</div>
+<div class='footnote' id='f77'>
+<p class='c014'><a href='#r77'>77</a>. [<em>When stoops the stranger ewe to drink</em>;] Sheep were not depastur’d on the Forest.</p>
+</div>
+<div class='footnote' id='f78'>
+<p class='c014'><a href='#r78'>78</a>. [<em>The tracks of their remember’d deer</em>,] It is said that the Wolf-tracks may yet be seen in some
+parts which those animals frequented, in Ireland, centuries ago.</p>
+</div>
+<div class='footnote' id='f79'>
+<p class='c014'><a href='#r79'>79</a>. [<em>Monster of the world</em>] French Revolution.</p>
+</div>
+<div class='footnote' id='f80'>
+<p class='c014'><a href='#r80'>80</a>. [<em>Emma’s art</em>] Miss Emma Sneyd, of Byrkley Lodge, has produced some beautiful landscapes
+and drawings of the Forest scenes.</p>
+</div>
+<div class='footnote' id='f81'>
+<p class='c014'><a href='#r81'>81</a>. [“<em>Here Gisborne penn’d his moral lay</em>] The character and writings both in verse and prose of
+the Rev. Thomas Gisborne, of Yoxall Lodge, are equally well known and admired: the
+public has lately called for a seventh edition of his “Walks in a Forest.”</p>
+</div>
+<div class='footnote' id='f82'>
+<p class='c014'><a href='#r82'>82</a>. [<em>Gigantic hollies!</em>] Particular groups of hollies of great age and size are here alluded to, as in
+<em>Needwood Forest p. 19</em>. Having been lopped for the deer in winter, (the upper part of
+their remaining trunks and branches being again cloathed with their fresh ever-green
+shoots) they had somewhat the appearance of ruins.</p>
+</div>
+<div class='footnote' id='f83'>
+<p class='c014'><a href='#r83'>83</a>. [<em>Fair Virgin!</em>] The Hon. Catharine Venables Vernon died in the summer of 1775.</p>
+</div>
+<div class='footnote' id='f84'>
+<p class='c014'><a href='#r84'>84</a>. [<em>Hark the same bell!—take, sister bier</em>,] The Hon. Martha Venables Vernon died while the
+Author was writing this poem.</p>
+</div>
+<div class='footnote' id='f85'>
+<p class='c014'><a href='#r85'>85</a>. [<em>Yes, Holly-Bush!</em>] Formerly the residence of the Author, where many alterations have since
+been made and are making.</p>
+</div>
+<div class='footnote' id='f86'>
+<p class='c014'><a href='#r86'>86</a>. [<em>Inland look</em>;] In contradistinction to its former forest character, in which sense this word is repeatedly
+used by Shakespear in “As you like it,” though there applied to persons.</p>
+</div>
+<div class='footnote' id='f87'>
+<p class='c014'><a href='#r87'>87</a>. [<em>Unambitious brow &#38;c.</em>] Needwood Forest p. 8.——[<em>Favourite Tree Sycamore</em>;] Needwood
+Forest p. 10.</p>
+</div>
+<div class='footnote' id='f88'>
+<p class='c014'><a href='#r88'>88</a>. [<em>Hall, whose kind arm &#38;c.</em>] T. K. Hall, Esq. has purchased Holly Bush with a considerable portion
+of the adjacent Forest land, the scenery of which he intends to preserve.</p>
+</div>
+<div class='footnote' id='f89'>
+<p class='c014'><a href='#r89'>89</a>. [<em>Revered Swilcar</em>;] Needwood Forest p. 41, 42. &#38;c.</p>
+</div>
+<div class='footnote' id='f90'>
+<p class='c014'><a href='#r90'>90</a>. [<em>Horrid!—I see thee far!</em>] The present appearance of Swilcar oak over a broad and hitherto
+uncultivated part of the late Forest, where not another tree remains, is very striking.
+He is fenced off from a new road.</p>
+</div>
+<div class='footnote' id='f91'>
+<p class='c014'><a href='#r91'>91</a>. [<em>And some, with strength &#38;c.</em>] Alluding to the complimentary verses printed with Needwood
+Forest, and others afterwards sent to the author.</p>
+</div>
+<div class='footnote' id='f92'>
+<p class='c014'><a href='#r92'>92</a>. [<em>Yon prison’d cliffs</em>] The banks and cliffs of the Forest, hanging towards the river Dove, are now
+fenced in, though otherwise left in their former state.</p>
+</div>
+<div class='footnote' id='f93'>
+<p class='c014'><a href='#r93'>93</a>. Milton, in Comus, makes Naiades the plural of Naiad, “amid the flowery-kirtled Naiades.”</p>
+</div>
+
+<div class='pbb'>
+ <hr class='pb c003'>
+</div>
+<div class='tnotes x-ebookmaker'>
+
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c011'>
+    <div>TRANSCRIBER’S NOTES</div>
+  </div>
+</div>
+
+</div>
+
+ <ul class='ul_1 c002'>
+    <li>Typos fixed; non-standard spelling and dialect retained.
+
+    </li>
+    <li>Used numbers for footnotes, placing them all at the end of the last chapter.
+    </li>
+  </ul>
+
+</div>
+
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 75378 ***</div>
+  </body>
+  <!-- created with ppgen.py 3.57e (with regex) on 2025-02-14 23:37:30 GMT -->
+</html>
+
