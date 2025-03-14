@@ -1,0 +1,65 @@
+_repo: Needwood-Forest_75378
+_version: 0.0.1
+contributor:
+  contributors:
+  - agent_name: Boothby, Brooke
+    aliases:
+    - Boothby, Brooke, Sir
+    - Member of the Revolution Society
+    - Society, Member of the Revolution
+    birthdate: 1743
+    deathdate: 1824
+    gutenberg_agent_id: '57973'
+    url: http://www.gutenberg.org/2009/agents/57973
+    wikipedia: https://en.wikipedia.org/wiki/Sir_Brooke_Boothby,_6th_Baronet
+  - agent_name: Darwin, Erasmus
+    birthdate: 1731
+    deathdate: 1802
+    gutenberg_agent_id: '3099'
+    url: http://www.gutenberg.org/2009/agents/3099
+    wikipedia: https://en.wikipedia.org/wiki/Erasmus_Darwin
+  - agent_name: Darwin, Erasmus
+    birthdate: 1759
+    deathdate: 1799
+    gutenberg_agent_id: '57982'
+    url: http://www.gutenberg.org/2009/agents/57982
+  - agent_name: Seward, Anna
+    alias: Seward, Miss (Anna)
+    birthdate: 1742
+    deathdate: 1809
+    gutenberg_agent_id: '32829'
+    url: http://www.gutenberg.org/2009/agents/32829
+    wikipedia: https://en.wikipedia.org/wiki/Anna_Seward
+creator:
+  author:
+    agent_name: Mundy, Francis Noel Clarke
+    alias: Mundy, Mr. (Francis Noel Clarke)
+    birthdate: 1738
+    deathdate: 1815
+    gutenberg_agent_id: '57918'
+    url: http://www.gutenberg.org/2009/agents/57918
+    wikipedia: https://en.wikipedia.org/wiki/Francis_Noel_Clarke_Mundy
+description: Poems addressed to the author (p. 45-52) signed E.D. (Erasmus Darwin),
+  A.S. (Anna Seward), B.B. (Brooke Boothby), and E.D. jun. (Erasmus Darwin, junior).
+gutenberg_issued: '2025-02-14'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '75378'
+language: en
+pgterms:marc904: https://babel.hathitrust.org/cgi/pt?id=nyp.33433074860648&view=1up&seq=10
+pgterms:marc905: 20230602113252mundy
+pgterms:marc906: '1776'
+pgterms:marc907: gb
+production_note: Richard Tonsing and the Online Distributed Proofreading Team at https://www.pgdp.net
+  (This book was produced from images made available by the HathiTrust Digital Library.)
+publication_note: '  $aLichfield :$bJohn Jackson, $c1776.'
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Staffordshire (England) -- Description and travel -- Poetry'
+- !lcsh 'Needwood Forest -- Description and travel -- Poetry'
+- !lcc 'PR'
+- GITenberg
+title: Needwood Forest
+url: http://www.gutenberg.org/ebooks/75378
