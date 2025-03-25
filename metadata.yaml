@@ -30,6 +30,9 @@ contributor:
     gutenberg_agent_id: '32829'
     url: http://www.gutenberg.org/2009/agents/32829
     wikipedia: https://en.wikipedia.org/wiki/Anna_Seward
+covers:
+- cover_type: archival
+  image_path: 75378-h/images/cover.jpg
 creator:
   author:
     agent_name: Mundy, Francis Noel Clarke
@@ -41,6 +44,8 @@ creator:
     wikipedia: https://en.wikipedia.org/wiki/Francis_Noel_Clarke_Mundy
 description: Poems addressed to the author (p. 45-52) signed E.D. (Erasmus Darwin),
   A.S. (Anna Seward), B.B. (Brooke Boothby), and E.D. jun. (Erasmus Darwin, junior).
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/75378#Needwood-Forest
 gutenberg_issued: '2025-02-14'
 gutenberg_type: Text
 identifiers:
